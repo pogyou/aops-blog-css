@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+div.entrywrap{ 
+background-color: white;
+}
+
+div.message{
+background-color: white;
+}
+
+div.entry{
+background-color: white;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.8px; 
+word-spacing: 1.6px; 
+background-color: #abdeda;
+}
+
+img:not(.latex){
+border-radius: 10px;
+}
+
+#header{
+background-color: white;
+}
