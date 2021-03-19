@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+div.entry h2 img, div.comment h2 img, .cfooter .author img, #post-new-entry-p img, .cmty-post-edited .cmty-post-edit-info, .archive-month-header img, div.entry h2 img, .cmty-poll-display-top{
+display: none;
+} 
+fieldset, div.entrywrap, div.cmty-posting-submenu, #wrapper, #header, #side, div.cmty-items-input-box.ui-front, div.cmty-item-tag, #navigation_box, div.comment, div.commentwrap, .feed-tab{
+border: none;
+}
+div.entry, input, textarea{
+border: none !important;
+}
+input, textarea, div.cmty-items-input-box.ui-front{
+background: #def3fa !important;
+}
+.cmty-poll-display{ 
+border: solid 1px lightgray;
+background: none;
+border-radius: 5px;
+}
+div.commentwrap, div.comment, #wrapper, #side, #main, #content, div.entrywrap, div.message, div.entry, .bbcode_quote, .bbcode_quote .bbcode_quote_head, .bbcode_quote:after{
+background: none !important;
+border-radius: 0px;
+}
+div.bbcode_quote:before, .bbcode_quote .bbcode_quote_head, div.bbcode_quote_body{
+margin-left: 15px;
+}
+#page-wrapper, body.community.feed-fullscreen.fullscreen.full-reply{
+background: url(https://artofproblemsolving.com/assets/images/top/pattern-online-gray.png) !important;
+}
+.bbcode_quote{
+border-left: solid 3px lightgray;
+transition: 0.5s;
+}
+.bbcode_quote:hover{
+border-left: solid 3px #b0b0b0;
+}
+#wrapper{
+width: 100%;
+}
+#main{
+width: calc(100% - 290px);
+margin-left: 16px;
+margin-right: 16px;
+}
+#side{
+overflow-y: scroll;
+}
+div.message{
+overflow: hidden;
+}
+body, #navigation_box a, h1, .btn-primary, .inputbox, input.button2, .cmty-post-textarea, .cmty-subject-input, .cmty-items-input.ui-autocomplete-input, div.cmty-item-tag, button.btn.btn-run, button.btn.btn-reset, button.btn.btn-link.btn-pop, div.cmty-topic-cell-post, div.cmty-topic-cell-subtitle, span.cmty-color-main.cmty-topic-cell-username, div.cmty-topic-cell-subject, div.cmty-topic-watchers, div.cmty-topic-cell-left-bottom, div.cmty-topic-cell-source, div.cmty-topic-cell-second-row, select, input#login-username.form-control, input#login-password.form-control, button#login-cancel-button.btn, div.cmty-topic-subject, input.cmty-submit-button.btn.btn-primary, textarea, div.cmty-topic-mini-reply, input{
+font-family: 'Inter', sans-serif;
+letter-spacing: 0.8px; 
+word-spacing: 1.6px;
+}
+span[style^="font-family:'header"], span[style^="font-family:'claim"]{
+font-family: 'Inter', sans-serif !important; 
+}
+input.cmty-submit-button.btn.btn-primary{
+font-size: 12px;
+}
+div.actions, div.modactions{
+font-size: 16px;
+}
+#navigation_box{
+height: 30px;
+padding: 5px;
+transition: 1.5s;
+margin-top: 170px;
+background: #a7eaef;
+}
+.inputbox{
+border-radius: 5px;
+border: solid 1px lightgray !important;
+}
+#navigation_box a{
+transition: 1s;
+color: white;
+margin-top: 3px;
+}
+#navigation_box a:hover{
+font-size: 20px;
+}
+#header h1{
+height: 200px;
+padding: 20px;
+font-size: 36px;
+background: url(https://i.ibb.co/YD6Twxx/snowy-day.png);
+color: white;
+font-weight: bold;
+transition: 1.5s;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+#header h1:hover{
+font-size: 60px;
+text-decoration: none;
+background: url(https://i.ibb.co/YD6Twxx/snowy-day.png) !important;
+}
+.cmty-poll-question{ 
+text-align: center;
+font-size: 24px;
+}
+.cmty-poll-select-no-results{
+margin-top: 10px;
+}
+div#feed-tabs{
+box-shadow: none;
+}
+.feed-tab{
+opacity: 0.8;
+transition: 0.5s;
+border-radius: 50%;
+box-shadow: 0px 0px 10px lightblue;
+}
+.feed-tab:hover{
+opacity: 1;
+}
+#search-widget>div{ 
+background: transparent;
+}
+.cmty-bbcode-bold,.cmty-bbcode-underline,.cmty-bbcode-italic,.cmty-bbcode-text-size,.cmty-bbcode-quote,.cmty-bbcode-hide,.cmty-bbcode-code,.cmty-bbcode-smiley,.cmty-bbcode-img,.cmty-bbcode-url,.cmty-bbcode-attachment,.cmty-bbcode-text-color,.cmty-bbcode-font-color-swatch,.cmty-bbcode-poll,.cmty-posting-forum-name,div.cmty-posting-font-color-swatch, span.cmty-cancel-posting-x.aops-font{
+transition: 1s !important;
+}
+.cmty-bbcode-bold:hover,.cmty-bbcode-underline:hover,.cmty-bbcode-italic:hover,.cmty-bbcode-text-size:hover,.cmty-bbcode-quote:hover,.cmty-bbcode-hide:hover,.cmty-bbcode-code:hover,.cmty-bbcode-smiley:hover,.cmty-bbcode-img:hover,.cmty-bbcode-url:hover,.cmty-bbcode-attachment:hover,.cmty-bbcode-text-color:hover,.cmty-bbcode-font-color-swatch:hover,.cmty-bbcode-poll:hover,.cmty-posting-forum-name:hover,div.cmty-posting-font-color-swatch:hover, span.cmty-cancel-posting-x.aops-font:hover{
+border-radius: 5px !important;
+transform: scale(1.3) !important;
+box-shadow: none !important;
+}
+div.cmty-bbcode-other{
+transition: 1s !important;
+}
+div.cmty-bbcode-other:hover{
+transform: scale(1.3) !important;
+}
+a.post-replies:before{
+content: "t ";
+font-family: AoPS;
+}
+a.post-comment:before{
+content: "x ";
+font-family: AoPS;
+}
+.blog-delete-post:before{
+content: "J ";
+font-family: AoPS;
+text-transform: uppercase;
+}
+.blog-edit-post:before{
+content: "L ";
+font-family: AoPS;
+text-transform: uppercase;
+}
+.blog-moderate-topic:before{
+content: "X ";
+font-family: AoPS;
+text-transform: uppercase;
+}
+.blog-report-post:before{
+content: "Z ";
+font-family: AoPS;
+text-transform: uppercase;
+}
+div#left_navigation_box a:nth-child(1):before{
+content: "u ";
+font-family: AoPS;
+}
+div#left_navigation_box a:nth-child(2):before{
+content: "a ";
+font-family: AoPS;
+}
+div#left_navigation_box a:last-child{
+border-bottom: 3px solid #cbf4f7;
+}
+div#left_navigation_box a:last-child:hover{ 
+padding-bottom: 5px;
+}
+a#blog-subscribe:before{
+content: "h ";
+font-family: AoPS;
+}
+a.blog-logout:before, a.blog-login:before{
+content: "R ";
+font-family: AoPS;
+text-transform: uppercase;
+}
+a.blog-info:before{
+content: "? ";
+font-family: AoPS;
+}
+span#submit:before{
+content: "£ ";
+font-family: AoPS;
+}
+span#submit{
+font-size: 10px;
+}
+a#post-new-entry:before{
+content: "V ";
+font-family: AoPS;
+text-transform: uppercase;
+}
+div.entry h2 strong:before{
+content: "V ";
+font-family: AoPS;
+text-transform: uppercase;
+}
+h2{
+visibility: hidden;
+margin-right: -120px !important;
+}
+h2 strong{
+visibility: visible;
+}
+p.author:before{
+content: "x ";
+font-family: AoPS;
+}
+.cmty-forum-admin a{
+color: #ea9 !important;
+transition: 1s !important;
+}
+.cmty-forum-mod a{ 
+color: #090 !important;
+transition: 1s !important;
+}
+.cmty-forum-admin a:hover, .cmty-forum-mod a:hover{
+color: gray !important;
+}
+code[class*="language-"]{
+color: #333;
+}
+span.cmty-hide-heading, .btn-primary, span.cmty-tip-header, div.cmty-posting-forum-name, div.cmty-poll-result-bar, input.button2, button.btn.btn-run, button.btn.btn-reset, button.btn.btn-link.btn-pop, div.cmty-posting-forum-name, button#login-cancel-button.btn, div.cmty-editable-item-close{
+transition: 1s;
+border-radius: 5px;
+}
+span.cmty-hide-heading:hover, .btn-primary:hover, span.cmty-tip-header:hover, div.cmty-posting-forum-name:hover, input.button2:hover, button.btn.btn-run:hover, button.btn.btn-reset:hover, button.btn.btn-link.btn-pop:hover, span.cmty-unread-icon:hover, div.cmty-editable-item-close:hover{ 
+transform: scale(1.2); 
+}
+.btn-primary, input.button2, div.cmty-poll-result-bar, button.btn.btn-run, button.btn.btn-reset, button.btn.btn-link.btn-pop, div.cmty-posting-forum-name, div.cmty-editable-item-close{
+background: lightblue !important;
+}
+button.btn.btn-link.btn-pop, .btn-primary, input.button2, div.cmty-editable-item-close{
+color: white !important;
+}
+.btn-primary:hover, input.button2:hover, div.cmty-poll-result-bar:hover, button.btn.btn-run:hover, button.btn.btn-reset:hover, button.btn.btn-link.btn-pop:hover, div.cmty-posting-forum-name:hover, div.cmty-editable-item-close:hover{
+color: lightblue !important;
+background: white !important;
+box-shadow: 0px 0px 10px lightblue;
+}
+div.cmty-posting-forum-name{
+width: 160px;
+}
+button.btn.btn-link.btn-pop:hover{
+text-decoration: none;
+}
+span.cmty-tip-header{
+color: lightblue !important;
+background: white !important;
+}
+span.cmty-tip-header:hover{
+color: white !important;
+background: lightblue !important;
+box-shadow: 0px 0px 10px lightblue;
+}
+.cmty-tip-content{
+background: lightblue !important;
+}
+.cmty-tip-triangle{
+display: none !important;
+}
+div.cmty-posting-preview-bar{
+background: lightblue !important;
+color: white !important;
+transition: 1.5s;
+}
+div.cmty-posting-preview-bar:hover{
+color: lightblue !important;
+background: white !important;
+box-shadow: 0px 0px 10px white;
+}
+::-webkit-scrollbar{
+width: 15px;
+}
+::-webkit-scrollbar-track{
+background: #f7fcf9; 
+}
+::-webkit-scrollbar-thumb {
+background: #c7edf0;
+border-radius: 5px;
+border: 2px solid white;
+}
+div.feed-subfeed-header{
+background: #abf0f5;
+}
+li.ui-menu-item, div.cmty-posting-environ ul{
+display: none !important;
+}
+.aops-scroll-bar{
+opacity: 0;
+}
+li.row1, li.row2{
+transition: 1s;
+background: none;
+border-top: solid 1px lightgray;
+}
+li.row1:hover, li.row2:hover{
+background: white;
+}
+a:link, a:visited{
+color: #808080;
+}
+span.faux-link.cmty-poll-show-results{
+display: none;
+}
+span.aops-icon.blog-delete-shout, span.cmty-post-thank, .cmty-post-report, .cmty-post-quote, span.cmty-pm-from-post, cmty-unread-icon, span.cmty-post-date, span.cmty-post-thank-count, a.cmty-post-number, div.cmty-post-num-posts, .span-aops-icon, span.cmty-full-screen, span.bkmk-icon, span.cmty-topic-reply, span.cmty-target-url, span.cmty-unread-icon, span.aops-font.cmty-post-edit, span.cmty-post-delete.aops-font, .cmty-topic-participants-usernames a, span.cmty-remove-me, span.cmty-topic-archive, div.cmty-topic-jump-top, div.cmty-topic-jump-bottom, span.cmty-topic-moderate, div.cmty-topic-mini-reply{
+color: lightgray;
+transition: 1s;
+}
+span.aops-icon.blog-delete-shout:hover, span.cmty-post-thank:hover, .cmty-post-report:hover, .cmty-post-quote:hover, span.cmty-pm-from-post:hover, cmty-unread-icon:hover, span.cmty-post-date:hover, span.cmty-post-thank-count:hover, a.cmty-post-number:hover, div.cmty-post-num-posts:hover, span.cmty-full-screen:hover, span.bkmk-icon:hover, span.cmty-topic-reply:hover, span.cmty-target-url:hover, span.cmty-unread-icon:hover, span.aops-font.cmty-post-edit:hover, span.cmty-post-delete.aops-font:hover, .cmty-topic-participants-usernames a:hover, span.cmty-remove-me:hover, span.cmty-topic-archive:hover, div.cmty-topic-jump-top:hover, div.cmty-topic-jump-bottom:hover, span.cmty-topic-moderate:hover, div.cmty-topic-mini-reply:hover{
+color: gray;
+}
+div.cmty-post-username{
+transition: 1s;
+}
+div.cmty-post-username:hover{
+font-size: 14px;
+}
+div.cmty-post-thankers{
+border-bottom: solid 1px lightgray;
+color: lightgray;
+transition: 1s;
+}
+div.cmty-post-thankers:hover{
+border-bottom: solid 1px gray;
+color: gray;
+}
+#side>div:not(#shouts-widget){
+transition: 1s;
+}
+#side>div:not(#shouts-widget):hover{
+background: white;
+border-radius: 5px;
+}
+div.latex-modal-bottom-title{
+font-weight: bold;
+}
+div.widget-title{
+font-size: 14px;
+text-transform: uppercase;
+text-align: center;
+font-weight: normal;
+}
+p.description, div#contrib-widget div.widget-content{
+font-size: 10px;
+}
+div#contrib-widget div.widget-content{
+color: #808080;
+}
+@media only screen and (max-width: 1200px){
+#navigation_box a{
+font-size: 10px;
+}
+#navigation_box a:hover{
+font-size: 20px;
+}
+}
+@media only screen and (max-width: 800px){
+#right_navigation_box{
+display: none;
+}
+div#header h1{
+font-size: 24px !important;
+}
+div#header h1:hover{
+font-size: 32px !important;
+}
+#side{
+width: 15em;
+}
+}
+@media only screen and (max-width: 520px){
+div#left_navigation_box a:nth-child(1), div#left_navigation_box a:nth-child(2){
+display: none;
+}
+div#left_navigation_box a:nth-child(3){
+margin-left: -30px;
+}
+}
+@media only screen and (max-width: 400px){
+div#header h1{
+font-size: 14px !important;
+}
+div#header h1:hover{
+font-size: 18px !important;
+}
+}
+@media only screen and (max-width: 300px){
+div#header h1{
+font-size: 10px !important;
+}
+div#header h1:hover{
+font-size: 14px !important;
+}
+}
+a.username-coloured{
+font-style: italic;
+}
+ul{ 
+list-style-type: disc; 
+}
+span[style^="font-family:'header"]{
+padding: 15px;
+margin: 15px;
+display: block;
+background: #f5f5f5;
+text-align: center;
+font-size: 22px;
+border-radius: 5px;
+transition: 0.5s;
+border-left: solid 10px lightblue;
+}
+span[style^="font-family:'header"]:hover{
+border-left: solid 10px #97becc;
+border-radius: 0px;
+transform: scale(0.97);
+}
+span[style^="font-family:'claim"]{
+padding: 15px;
+margin: 15px;
+display: block;
+background: #f5f5f5;
+border-radius: 5px;
+transition: 0.5s;
+}
+span[style^="font-family:'claim"]:hover{
+border-radius: 0px;
+transform: scale(0.97);
+}
+.widget-title{
+margin-bottom: 6px;
+}
+.aops-scroll-inner, .aops-scroll-content{
+width: 100% !important;
+}
+.blog-shout{
+padding: 9px 0px !important;
+}
+div.entry h1 a, div.entry h1{
+color: black;
+font-size: 1.4em;
+text-align: center;
+}
+div.entry h2 strong, .author strong{
+font-weight: normal;
+}
+div.entrywrap{
+margin: 0px;
+padding: 0px;
+}
+.cmty-item-tag{
+font-size: 0.8em;
+color: #808080 !important;
+background: none !important;
+line-height: inherit;
+padding: 0px;
+}
+.blog-num-comments{
+color: #808080;
+font-weight: 400;
+}
+h1 a, a h1, div.entry h2 a, #submit, .author a, .user_menu a, .cmty-item-tag{
+transition: .3s;
+}
+h1 a:hover, a:hover h1, div.entry h2 a:hover, .cmty-item-tag:hover, #submit:hover, .author a:hover, .user_menu a:hover{
+background: #faf7f7 !important;
+}
+.message a, div.actions ul li a, div.modactions ul li a, .archive-row a, p a, a.bbcode_url, .cmty-post-target-note a, span.faux-link.cmty-poll-show-results, span.faux-link.cmty-poll-hide-results, div#contrib-widget a{
+transition: .3s;
+border-bottom: 3px solid #b5c8cf !important;
+text-decoration: none;
+}
+a.username-colored{
+font-style: italic;
+border-bottom: 3px solid black !important;
+text-decoration: none;
+}
+.message a:hover, div.actions ul li a:hover, div.modactions ul li a:hover, .archive-row a:hover, p a:hover, a.bbcode_url:hover, a.username-colored:hover, .cmty-post-target-note a:hover, div#contrib-widget a:hover{
+border-bottom: 3px solid #618794 !important;
+}
+span.faux-link.cmty-poll-hide-results{
+overflow: hidden;
+}
+div.entry h2{
+color: #808080;
+font-size: 0.8em;
+text-align: center;
+margin-bottom: 1.5em;
+}
+.username-coloured, .author a, .author a:hover, .user_menu a{
+border-bottom: none;
+color: inherit !important;
+text-transform: uppercase;
+}
+::selection{
+background: #87cee6;
+}
+div#flyout, div.aops-modal-frame.aops-modal-standard{
+border-color: #f5f5f5;
+}
+div.cmty-post-target-note{
+border-style: solid;
+}
+span.cmty-hide-heading{
+color: white !important;
+background: lightblue !important;
+}
+span.cmty-hide-heading:hover{
+color: lightblue !important;
+background: white !important;
+box-shadow: 0px 0px 10px white;
+}
+a.aops-close-x.clickable:before, a.aops-close-x-clickable{
+transition: 0.3s;
+}
+a.aops-close-x.clickable:hover:before{
+color: lightgray;
+}
+span.blog-num-comments{
+transition: 1s;
+}
+span.blog-num-comments:hover{
+font-size: 24px;
+}
+#navigation_box{
+z-index: 10;
+}
+#header h1{
+z-index: 0;
+}
+.cmty-add-participant{
+transition: 1s;
+}
+.cmty-add-participant:hover{
+background: white;
+color: #aaa;
+}
+.cmty-posting-button-row, div.cmty-posting-top, div.aops-modal-content-wrapper div.aops-modal-title, div.aops-modal-buttons.aops-modal-footer, div.cmty-reply-divider.ui-draggable, div.cmty-poll-build{
+background: #a1c8d4;
+}
+div.cmty-posting-button-row{
+background: #a1c8d4 !important;
+}
+div.aops-modal-frame{
+border-color: #a1c8d4;
+}
+div#archive-widget strong{
+display: list-item;
+list-style-type: "+ ";
+}
+div#stats-widget, div#about-owner-widget, div#archive-widget, h2, #navigation_box a, div.actions, div.modactions, #post-new-entry, div.cmty-poll-select-no-results, div.cmty-poll-helper-text, div.cmty-topic-reply, a.blog-post-comment, div.cmty-no-results-found, span.blog-num-comments, div.cmty-poll-build, select, div.cmty-posting-submenu.cmty-posting-submenu-extras, div.cmty-heading-text, span.cmty-post-in, div.blog-no-topics{
+text-transform: lowercase;
+}
+/*div.dz-message a{
+buggy with attachments so removed lol
+tag auto complete sucks
+reply button row not changed color because of weird handle
+css is scuffed
+when deleting a post it looks bad
+
+:root{
+text-transform: lowercase;
+}
+span[style^="font-family:'AoPS"]{
+text-transform: initial !important;
+}
+}*/
