@@ -1,0 +1,553 @@
+/* tostarena.css by simonicorn
+
+1.0.0 (1/28/2021)
+
+some (modified) css from ascent.css by cjquines0, fresh.css by neomathematicalkid, city.css by neomathematicalkid, and wordpress piano.css by dragon96
+
+side bar from neomathematicalkid/cjquines0
+
+poll css inspired by ivyzheng
+
+inputbox/shouts widget css inspired by mathicorn
+
+code/username color fix by happycupcake
+
+some designs inspired by the_squirrel/elephant/turtle and bingo2016/bingo2019
+
+lora, noto sans, and playfair display designed by cyreal, google, and claus eggers sørensen, respectively */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&family=Noto+Sans&display=swap');
+ 
+div.entry h2 img, div.comment h2 img, .cfooter .author img, #post-new-entry-p img, .cmty-post-edited .cmty-post-edit-info, .archive-month-header img, div.entry h2 img, .cmty-poll-display-top{
+display: none;
+} 
+.cmty-poll-display{ 
+background-color: #fff8f0;
+border-radius: 5px;
+}
+div.commentwrap, div.comment, #wrapper, #side, #main, #content, div.entrywrap, div.message, div.entry{
+background-color: #fff8f0 !important;
+border-radius: 0px;
+}
+.bbcode_quote, .bbcode_quote:after, div.bbcode_quote_head{
+background-color: #fff8f0 !important;
+}
+body{
+background: url('https://i.ibb.co/dLbyrL6/a.jpg');
+background-size: 100%;
+}
+div.message{
+overflow: hidden;
+margin-bottom: 2em;
+}
+h2{
+font-family: 'Noto Sans', sans-serif;
+}
+body, .btn-primary, .inputbox, input.button2, .cmty-post-textarea, .cmty-subject-input, .cmty-items-input.ui-autocomplete-input, div.cmty-item-tag, button.btn.btn-run, button.btn.btn-reset, button.btn.btn-link.btn-pop, div.cmty-topic-cell-post, div.cmty-topic-cell-subtitle, span.cmty-color-main.cmty-topic-cell-username, div.cmty-topic-cell-subject, div.cmty-topic-watchers, div.cmty-topic-cell-left-bottom, div.cmty-topic-cell-source, div.cmty-topic-cell-second-row, select, input#login-username.form-control, input#login-password.form-control, button#login-cancel-button.btn, div.cmty-topic-subject, input.cmty-submit-button.btn.btn-primary, textarea, div.cmty-topic-mini-reply, h1, input{
+font-family: 'Playfair Display', serif;
+letter-spacing: 0.8px; 
+word-spacing: 1.6px;
+}
+#navigation_box a{
+font-family: 'Noto Sans', sans-serif;
+}
+div.actions ul, div.modactions ul{
+color: #808080;
+font-family: 'Noto Sans', sans-serif;
+}
+input.cmty-submit-button.btn.btn-primary{
+font-size: 12px;
+}
+#navigation_box{
+height: 30px !important;
+padding: 5px !important;
+transition: 2s !important;
+position: fixed;
+background-color: white;
+box-shadow: 0px 0px 3px gray;
+}
+#navigation_box:hover{
+height: 100px !important;
+padding: 40px !important;
+}
+#wrapper{
+transition: 2s;
+width: 50em;
+margin-top: 1.9em;
+background: none;
+}
+.inputbox{
+border-radius: 5px;
+background-color: #fcf7fc;
+}
+#navigation_box a{
+transition: 2s;
+opacity: 0.25;
+color: black;
+}
+#navigation_box a:hover{
+font-size: 30px;
+color: black !important; 
+opacity: 1;
+}
+div#header, fieldset, div.entrywrap, .cmty-poll-display, div.cmty-posting-submenu, div#side{
+border: none !important;
+}
+div.entry{
+padding: 10px;
+border: none !important;
+}
+div#header h1{
+height: 120px;
+background-color: #f5efe4 !important;
+color: black !important;
+font-size: 0.35em;
+font-weight: bold;
+transition: 2s;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+border: none !important;
+font-family: Lora, serif;
+}
+div#header h1:hover{
+height: 240px;
+font-size: 36px;
+padding: 55px;
+text-decoration: none;
+}
+.cmty-poll-question{ 
+text-align: center;
+font-size: 24px;
+}
+.cmty-poll-select-no-results{
+margin-top: 10px;
+}
+div#feed-tabs{
+box-shadow: none;
+}
+.feed-tab{
+opacity: 0.8;
+transition: 0.5s;
+border-radius: 50%;
+box-shadow: 0px 0px 10px black;
+border: none;
+}
+.feed-tab:hover{
+opacity: 1;
+}
+#search-widget>div{ 
+background-color: transparent;
+}
+.cmty-bbcode-bold,.cmty-bbcode-underline,.cmty-bbcode-italic,.cmty-bbcode-text-size,.cmty-bbcode-quote,.cmty-bbcode-hide,.cmty-bbcode-code,.cmty-bbcode-smiley,.cmty-bbcode-img,.cmty-bbcode-url,.cmty-bbcode-attachment,.cmty-bbcode-text-color,.cmty-bbcode-font-color-swatch,.cmty-bbcode-poll,.cmty-posting-forum-name,div.cmty-posting-font-color-swatch{
+transition: 2s !important;
+}
+.cmty-bbcode-bold:hover,.cmty-bbcode-underline:hover,.cmty-bbcode-italic:hover,.cmty-bbcode-text-size:hover,.cmty-bbcode-quote:hover,.cmty-bbcode-hide:hover,.cmty-bbcode-code:hover,.cmty-bbcode-smiley:hover,.cmty-bbcode-img:hover,.cmty-bbcode-url:hover,.cmty-bbcode-attachment:hover,.cmty-bbcode-text-color:hover,.cmty-bbcode-font-color-swatch:hover,.cmty-bbcode-poll:hover,.cmty-posting-forum-name:hover,div.cmty-posting-font-color-swatch:hover{
+border-radius: 5px !important;
+transform: scale(1.2) !important;
+}
+a.post-replies:before{
+content: "t ";
+font-family: AoPS;
+}
+a.post-comment:before{
+content: "x ";
+font-family: AoPS;
+}
+.blog-delete-post:before{
+content: "J ";
+font-family: AoPS;
+}
+.blog-edit-post:before{
+content: "L ";
+font-family: AoPS;
+}
+.blog-moderate-topic:before{
+content: "X ";
+font-family: AoPS;
+}
+.blog-report-post:before{
+content: "Z ";
+font-family: AoPS;
+}
+div#left_navigation_box a:nth-child(1):before{
+content: "u ";
+font-family: AoPS;
+}
+div#left_navigation_box a:nth-child(2):before{
+content: "a ";
+font-family: AoPS;
+}
+div#left_navigation_box a:last-child{
+border-bottom: 3px solid orange;
+}
+div#left_navigation_box a:last-child:hover{ 
+padding-bottom: 10px;
+}
+div#contrib-widget.widget a:nth-child(40):before{
+content: "X ";
+font-family: AoPS;
+}
+a#blog-subscribe:before{
+content: "h ";
+font-family: AoPS;
+}
+a.blog-logout:before{
+content: "R ";
+font-family: AoPS;
+}
+a.blog-login:before{
+content: "R ";
+font-family: AoPS;
+}
+a.blog-info:before{
+content: "? ";
+font-family: AoPS;
+}
+span#submit:before{
+content: "£ ";
+font-family: AoPS;
+}
+a#post-new-entry:before{
+content: "V ";
+font-family: AoPS;
+}
+.cmty-forum-admin a{
+color: #ea9 !important;
+}
+.cmty-forum-mod a{ 
+color: #090 !important;
+}
+.cmty-forum-admin a:hover, .cmty-forum-mod a:hover{
+color: black !important;
+}
+code[class*="language-"]{
+color: #333;
+}
+span.cmty-hide-heading, .btn-primary, span.cmty-tip-header, div.cmty-posting-forum-name, div.cmty-poll-result-bar, input.button2, button.btn.btn-run, button.btn.btn-reset, button.btn.btn-link.btn-pop, div.cmty-posting-forum-name, button#login-cancel-button.btn{
+transition: 2s;
+border-radius: 5px;
+}
+span.cmty-hide-heading:hover, .btn-primary:hover, span.cmty-tip-header:hover, div.cmty-posting-forum-name:hover, input.button2:hover, button.btn.btn-run:hover, button.btn.btn-reset:hover, button.btn.btn-link.btn-pop:hover, span.cmty-unread-icon:hover{ 
+transform: scale(1.2); 
+}
+.btn-primary, input.button2, div.cmty-poll-result-bar, button.btn.btn-run, button.btn.btn-reset, button.btn.btn-link.btn-pop, div.cmty-posting-forum-name{
+background-color: orange !important;
+}
+button.btn.btn-link.btn-pop, .btn-primary, input.button2{
+color: white !important;
+}
+.btn-primary:hover, input.button2:hover, div.cmty-poll-result-bar:hover, button.btn.btn-run:hover, button.btn.btn-reset:hover, button.btn.btn-link.btn-pop:hover, div.cmty-posting-forum-name:hover{
+color: orange !important;
+background-color: white !important;
+box-shadow: 0px 0px 10px orange;
+}
+button.btn.btn-link.btn-pop:hover{
+text-decoration: none;
+}
+span.cmty-tip-header{
+color: orange !important;
+background-color: white !important;
+}
+span.cmty-tip-header:hover{
+color: white !important;
+background-color: orange !important;
+box-shadow: 0px 0px 10px orange;
+}
+.cmty-tip-content{
+background-color: orange !important;
+}
+div.cmty-posting-preview-bar{
+background-color: orange !important;
+color: white !important;
+transition: 2s;
+}
+div.cmty-posting-preview-bar{
+color: orange !important;
+background-color: white !important;
+transition: 2s;
+box-shadow: 0px 0px 10px white;
+}
+::-webkit-scrollbar{
+width: 15px;
+}
+::-webkit-scrollbar-track{
+background: #f7fcf9; 
+}
+::-webkit-scrollbar-thumb {
+background: #f5e2ab;
+border-radius: 5px;
+border: 2px solid white;
+}
+.blog-scroll-outer .aops-scroll-bar{
+display: none !important;
+}
+div#feed-wrapper .aops-scroll-bar{
+opacity: 0;
+}
+li.row1, li.row2{
+margin-left: 18.6px;
+transition: 2s;
+border-top: 1px solid lightgray;
+background: none;
+}
+li.row1:hover, li.row2:hover{
+background: white;
+}
+.aops-modal-frame.cmty-posting-modal{
+opacity: 0.95;
+}
+a:link, a:visited{
+color: #808080;
+}
+li::marker{
+color: orange;
+}
+span.aops-icon.blog-delete-shout, span.cmty-post-thank, .cmty-post-report, .cmty-post-quote, span.cmty-pm-from-post, cmty-unread-icon, span.cmty-post-date, span.cmty-post-thank-count, a.cmty-post-number, div.cmty-post-num-posts, .span-aops-icon, span.cmty-full-screen, span.bkmk-icon, span.cmty-topic-reply:hover, div.cmty-post-username, span.cmty-target-url, span.cmty-unread-icon, span.aops-font.cmty-post-edit, span.cmty-post-delete.aops-font{
+color: lightgray;
+transition: 2s;
+}
+span.aops-icon.blog-delete-shout:hover, span.cmty-post-thank:hover, .cmty-post-report:hover, .cmty-post-quote:hover, span.cmty-pm-from-post:hover, cmty-unread-icon:hover, span.cmty-post-date:hover, span.cmty-post-thank-count:hover, a.cmty-post-number:hover, div.cmty-post-num-posts:hover, span.cmty-full-screen:hover, span.bkmk-icon:hover, span.cmty-topic-reply:hover, div.cmty-post-username:hover, span.cmty-target-url:hover, span.cmty-unread-icon:hover, span.aops-font.cmty-post-edit:hover, span.cmty-post-delete.aops-font:hover{
+color: black;
+}
+#side>div:not(#shouts-widget){
+transition: 1s;
+}
+#side>div:not(#shouts-widget):hover{
+background-color: white;
+border-radius: 5px;
+}
+#main::before{
+content: "tostarena.css by simonicorn // guys i made this css myself :( stop saying its by pog";
+color: black;
+font-size: 12px;
+display: block;
+text-align: center;
+padding: 10px;
+}
+div.latex-modal-bottom-title{
+font-weight: bold;
+}
+div.widget-title{
+font-size: 14px;
+text-transform: uppercase;
+}
+div.archive-row a, #contrib-widget div.widget-content, p.description{
+font-size: 10px;
+}
+@media only screen and (max-width: 1200px){
+#navigation_box a{
+font-size: 10px;
+}
+#navigation_box a:hover{
+font-size: 20px;
+}
+}
+@media only screen and (max-width: 800px){
+#right_navigation_box{
+display: none;
+}
+div#wrapper{
+width: 90vw;
+}
+div#header h1{
+font-size: 24px !important;
+}
+div#header h1:hover{
+font-size: 32px !important;
+}
+#side{
+width: 15em;
+}
+}
+@media only screen and (max-width:520px){
+#side:after{
+height: 2em; 
+width: 2em; 
+padding: 0.6em 0.65em;
+}
+div#left_navigation_box a:nth-child(1), div#left_navigation_box a:nth-child(2){
+display: none;
+}
+div#left_navigation_box a:nth-child(3){
+margin-left: -30px;
+}
+}
+@media only screen and (max-width: 400px){
+div#header h1{
+font-size: 14px !important;
+}
+div#header h1:hover{
+font-size: 18px !important;
+}
+}
+@media only screen and (max-width: 300px){
+div#header h1{
+font-size: 10px !important;
+}
+div#header h1:hover{
+font-size: 14px !important;
+}
+}
+a.username-coloured{
+font-style: italic;
+visibility: hidden;
+}
+a.username-coloured:before{
+visibility: visible;
+content: "simonicorn";
+margin-right: -81.5px; 
+margin-left: -1.5px;
+}
+a.username-colored{
+visibility: hidden;
+}
+a.username-colored:before{
+visibility: visible;
+content: "simonicorn";
+border-bottom: 3px solid black !important;
+text-decoration: none;
+margin-right: -33px;
+}
+ul{ 
+list-style-type: disc; 
+}
+span[style^="font-family:'header"]{
+padding: 15px;
+margin: 15px;
+display: block;
+border: 1px solid lightgray;
+font-family: Lora, sans-serif !important;
+color: black;
+background-color: #fcf1e3;
+text-align: center;
+font-size: 22px;
+}
+#main{
+width: 100%;
+}
+#side{
+position: fixed;
+top: 0;
+left: -25em;
+width: 25em;
+height: 100%;
+padding-top: 20px;
+z-index: 100;
+overflow-y: scroll;
+transition: .9s;
+}
+#side:after{
+content: "»";
+position: fixed;
+top: 1.5em;
+left: 0;
+background-color: orange;
+color: white;
+font-size: 2em;
+font-family: Lora, serif;
+padding: 0.35em 0.4em;
+height: 1.5em;
+width: 1.5em;
+border-radius: 0 1em 1em 0;
+transition: .7s;
+}
+#side:hover{
+left: 0;
+transition: .9s;
+}
+#side:hover:after{ 
+left: -1.5em;
+transition: .7s;
+}
+#side>div{
+margin: 0 !important;
+padding: 2em 0 !important;
+}
+.widget-title{
+margin-bottom: 0.5em;
+}
+.aops-scroll-inner, .aops-scroll-content{
+width: 100% !important;
+}
+.blog-shout{
+padding: 0.75em 0 !important;
+}
+div.entry h1 a, div.entry h1{
+color: black;
+font-size: 1.4em;
+text-align: center;
+}
+div.entry h2 strong, .author strong{
+font-weight: normal;
+}
+div.entrywrap{
+margin: 0;
+padding: 0;
+}
+.cmty-item-tag{
+border: none;
+font-size: 0.8em;
+color: #808080 !important;
+background: none !important;
+line-height: inherit;
+transition: 2s;
+padding: 0;
+border-radius: 0px;
+}
+.blog-num-comments{
+color: #808080;
+font-weight: 400;
+}
+h1 a, a h1, div.entry h2 a, #submit, .author a, .user_menu a{
+transition: .3s;
+}
+h1 a:hover, a:hover h1, div.entry h2 a:hover, .cmty-item-tag:hover, #submit:hover, .author a:hover, .user_menu a:hover{
+background: #dae4e7 !important;
+}
+.message a, div.actions ul li a, div.modactions ul li a, .archive-row a, p a, a.bbcode_url, .cmty-post-target-note a{
+transition: .3s;
+border-bottom: 3px solid #b5c8cf !important;
+text-decoration: none;
+}
+a.username-colored{
+font-style: italic;
+border-bottom: 3px solid black !important;
+text-decoration: none;
+}
+.message a:hover, div.actions ul li a:hover, div.modactions ul li a:hover, .archive-row a:hover, p a:hover, a.bbcode_url:hover, a.username-colored:hover, .cmty-post-target-note a:hover{
+border-bottom: 3px solid #618794 !important;
+}
+div.entry h2{
+color: #808080;
+font-size: 0.8em;
+text-align: center;
+margin-bottom: 1.5em;
+}
+.username-coloured, .author a, .author a:hover, .user_menu a{
+border-bottom: none;
+color: inherit !important;
+text-transform: uppercase;
+}
+div.actions{
+font-size: 0.8em;
+}
+div.comment, div.commentwrap{
+border: none;
+}
+::selection{
+background-color: #dae4e7;
+}
+div#flyout{
+border-color: #f5e2ab;
+}
+div.cmty-post-target-note{
+border-style: solid;
+}
+span.cmty-hide-heading{
+color: white !important;
+background-color: orange !important;
+}
+span.cmty-hide-heading:hover{
+color: orange !important;
+background-color: white !important;
+box-shadow: 0px 0px 10px white;
+}
