@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+div.entry h2 img, div.comment h2 img, .cfooter .author img, #post-new-entry-p img, .cmty-post-edited .cmty-post-edit-info{
+display: none;
+} 
+
+div.entrywrap, div.message, div.entry, div.commentwrap, #header, #navigation_box, body{ 
+background-color: white;
+}
+
+body{
+background-image: url(https://i.ibb.co/zr1Nm54/pexels-nikki-swart-1701412.jpg);
+animation: help 0.2s infinite;
+animation-delay: 20s;
+}
+
+.@keyframes help{
+0%{
+opacity: 0.6;
+transform: translate(1px, 1px);
+filter: blur(3px) invert(20%) sepia(60%) contrast(110%) saturate(130%);
+background-image: url(https://i.ibb.co/4MRjW64/qwq.png);
+text-transform: lowercase;
+}
+10%{ 
+transform: translate(-1px, -2px) rotate(-1deg); 
+}
+20%{ 
+transform: translate(-3px, 0px) rotate(1deg); 
+text-transform: uppercase;
+}
+30%{ 
+transform: translate(3px, 2px); 
+}
+33%{
+background-image: url(https://i.ibb.co/wgcW2xh/Webp-net-resizeimage-1.png);
+}
+40%{ 
+transform: translate(1px, -1px) rotate(1deg); 
+font-variant-caps: small-caps;
+}
+50%{ 
+transform: translate(-1px, 2px) rotate(-1deg); 
+}
+60%{
+transform: translate(-3px, 1px); 
+font-variant-caps: all-petite-caps;
+}
+66%{
+background-image: url(https://i.ibb.co/s9cnVQ9/Webp-net-resizeimage.png);
+}
+70%{ 
+transform: translate(3px, 1px) rotate(-1deg); 
+}
+80%{
+filter: blur(0.5px) sepia(60%) contrast(110%) saturate(130%);
+text-transform: lowercase;
+transform: translate(-1px, -1px) rotate(1deg); 
+font-variant-caps: titling-caps;
+}
+90%{ 
+transform: translate(1px, 2px) rotate(0deg); 
+}
+100%{
+opacity: 1;
+text-transform: uppercase;
+transform: translate(1px, -2px) rotate(-1deg);
+}/
+}
+
+#navigation_box{
+box-shadow: 0px 0px 1px 2px black;
+}
+
+div.entrywrap{
+border-color: lightgray;
+}
+
+body, .btn-primary, div#header h1, #navigation_box a, .inputbox, input.button2, div.cmty-posting-environ, textarea.cmty-post-textarea, .cmty-subject-input{
+font-family: Overpass, sans-serif !important;
+letter-spacing: 0.8px; 
+word-spacing: 1.6px; 
+}
+
+#main{
+width: calc(100% - 258px);
+}
+
+#wrapper{
+width: 80%;
+transition: 2s;
+opacity: 0.6;
+}
+
+#wrapper:hover{
+box-shadow: 0px 0px 20px lightgray;
+opacity: 1;
+}
+
+img:not(.latex){
+border-radius: 10px;
+animation: help 0.2s infinite;
+animation-delay: 20s;
+}
+
+#navigation_box a{
+color: black;
+}
+
+div#feed-tabs{
+box-shadow: 0px 0px 10px gray;
+transition: 0.5s;
+}
+
+div#feed-tabs:hover{
+box-shadow: 0px 0px 20px gray;
+}
+
+.feed-tab{
+opacity: 0.8;
+transition: 0.5s;
+}
+
+.feed-tab:hover{
+opacity: 1;
+}
+
+div.cmty-posting-forum-name:before{
+visibility: visible;
+content: "inferno of hell";
+background-color: red;
+}
+
+#main:before{
+content: "flashing lights/photosensitive/epilepsy warning";
+white-space: pre;
+top: 2em;
+font-size: 0px;
+color: red;
+display: block;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+animation: shrink 40s ease; 
+}
+
+@keyframes shrink{
+0%{
+font-size: 30px;
+}
+50%{
+opacity: 0;
+}
+100%{
+opacity: 0;
+font-size: 0px;
+}
+}
+
+div.cmty-post-html:before{
+content: "i told you not to open the feed... why are you trying to escape?";
+}
+
+div.cmty-edit-reason{
+visibility: hidden;
+}
+
+div.cmty-edit-reason:before{
+visibility: visible;
+content: "what are you doing?";
+}
+
+a#blog-subscribe.clickable{
+visibility: hidden;
+}
+
+a#blog-subscribe.clickable:after{
+visibility: visible;
+content: "stay here forever :)";
+}
+
+a.username-colored{
+visibility: hidden;
+}
+
+a.username-colored:after{
+visibility: visible;
+content: "who am i?";
+margin-left: -25px;
+}
+
+div.cmty-posting-forum-name{ 
+visibility: hidden;
+}
+
+.btn-primary{
+background-color: red;
+transition: 1s;
+}
+
+div.cmty-report-post{
+visibility: hidden;
+}
+
+div.cmty-report-post:before{
+visibility: visible;
+content: "you're not trying to report me, are you?";
+}
+
+a.aops-close-x{ /* after all, why would you try to leave? */
+visibility: hidden;
+}
+
+.cmty-bbcode-bold,.cmty-bbcode-underline,.cmty-bbcode-italic,.cmty-bbcode-text-size,.cmty-bbcode-quote,.cmty-bbcode-hide,.cmty-bbcode-code,.cmty-bbcode-smiley,.cmty-bbcode-img,.cmty-bbcode-url,.cmty-bbcode-attachment,.cmty-bbcode-text-color,.cmty-bbcode-font-color-swatch,.cmty-bbcode-poll{
+transition: 1s !important;
+}
+
+.cmty-bbcode-bold:hover,.cmty-bbcode-underline:hover,.cmty-bbcode-italic:hover,.cmty-bbcode-text-size:hover,.cmty-bbcode-quote:hover,.cmty-bbcode-hide:hover,.cmty-bbcode-code:hover,.cmty-bbcode-smiley:hover,.cmty-bbcode-img:hover,.cmty-bbcode-url:hover,.cmty-bbcode-attachment:hover,.cmty-bbcode-text-color:hover,.cmty-bbcode-font-color-swatch:hover,.cmty-bbcode-poll:hover{
+border-radius: 10px !important;
+}
+
+div.cmty-posting-submenu{
+border: none !important;
+}
+
+#search-widget>div{
+background-color: transparent;
+}
+
+#search-widget fieldset>*{
+display: inline;
+border: none;
+}
+
+.entry{
+border: none !important;
+}
+body:active{
+animation: none;
+}
