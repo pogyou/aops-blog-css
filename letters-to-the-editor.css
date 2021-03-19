@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+.cmty-post-edited .cmty-post-edit-info{ /* removes number of edits message */
+display: none;
+}
+ 
+div.entry h2 img, div.comment h2 img { /* removes pencil before the "by _" message in comments */
+display: none;
+}
+ 
+.cfooter .author img {/* removes pencil before the "by _" message in entries */
+display: none;
+}
+ 
+#post-new-entry-p img{/* removes pencil before the post new entry button*/
+display: none;
+}
+ 
+img:not(.latex){
+border-radius: 10px;
+}
+ 
+#header{
+background-color: white;
+border: none;
+}
+ 
+div#header h1{
+font-family: 'Peddana', serif;
+font-size: 48px;
+margin-top: 30px;
+}
+ 
+#navigation_box{
+background-color: #f2eecb;
+border: none;
+}
+ 
+#navigation_box a{
+border-bottom: 3px dotted white;
+transition: 0.3s;
+}
+ 
+#navigation_box a:hover{
+background-color: white;
+}
+ 
+div.message{
+background-color: white;
+}
+ 
+#side{
+background-color: white;
+}
+ 
+.commentwrap{
+background-color: white;
+}
+ 
+.comment{
+background-color: #f2eecb;
+}
+ 
+div.entrywrap {
+background-color: white;
+border: none;
+}
+ 
+#wrapper{
+background-color: white;
+border: none;
+}
+ 
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+letter-spacing: 0.8px;
+word-spacing: 1.6px;
+background-color: #ffffe0;
+}
+ 
+.entry{
+background-color: white;
+border-style: none !important;
+}
+ 
+.cmty-bbcode-bold,.cmty-bbcode-underline,.cmty-bbcode-italic,.cmty-bbcode-text-size,.cmty-bbcode-quote,.cmty-bbcode-hide,.cmty-bbcode-code,.cmty-bbcode-smiley,.cmty-bbcode-img,.cmty-bbcode-url,.cmty-bbcode-attachment,.cmty-bbcode-text-color,.cmty-bbcode-font-color-swatch,.cmty-bbcode-poll{
+transition: 1s !important;
+}
+
+.cmty-bbcode-bold:hover,.cmty-bbcode-underline:hover,.cmty-bbcode-italic:hover,.cmty-bbcode-text-size:hover,.cmty-bbcode-quote:hover,.cmty-bbcode-hide:hover,.cmty-bbcode-code:hover,.cmty-bbcode-smiley:hover,.cmty-bbcode-img:hover,.cmty-bbcode-url:hover,.cmty-bbcode-attachment:hover,.cmty-bbcode-text-color:hover,.cmty-bbcode-font-color-swatch:hover,.cmty-bbcode-poll:hover{
+border-radius: 10px !important;
+}
+
+#search-widget fieldset{
+position: absolute;
+top: 100px;
+z-index: 1;
+}
+ 
+#search-widget input{
+height: 25px;
+width: 200px;
+border-color: white !important;
+font-family: 'Roboto', sans-serif;
+border-radius: 10px;
+z-index: 1;
+}
+ 
+div.widget-header{
+display: none;
+}
+ 
+ 
+.btn-primary {
+background-color: #f5e1ae;
+border-radius: 10px;
+}
+ 
+.cmty-poll-question {
+text-align: center;
+font-size: 24px;
+color: white;
+text-shadow: #f2eecb 1px 1px 0;
+}
