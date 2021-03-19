@@ -1,0 +1,389 @@
+/* DO NOT use this css on your blog / css by pog */
+
+@import url(https://fonts.googleapis.com/css2?family=Overpass);
+
+div.entry h2 img, div.comment h2 img, .cfooter .author img, #post-new-entry-p img, .cmty-post-edited .cmty-post-edit-info, div.widget-header, .archive-month-header img{
+display: none;
+} 
+
+div.entrywrap, div.message, div.commentwrap, #navigation_box{ 
+background-color: white;
+}
+
+body, .btn-primary, div#header h1, #navigation_box a, .inputbox, input.button2, .cmty-post-textarea, .cmty-subject-input, .cmty-items-input.ui-autocomplete-input{
+font-family: Overpass, sans-serif;
+letter-spacing: 0.8px; 
+word-spacing: 1.6px;
+}
+
+#navigation_box{
+position: fixed;
+border-bottom: solid 1px;
+transition: 1s;
+height: 40px;
+padding: 10px;
+}
+
+#navigation_box:hover{
+height: 80px;
+padding: 30px;
+}
+
+#navigation_box a{
+color: black;
+transition: 1s;
+}
+
+#navigation_box a:hover{
+color: gray;
+font-size: 20px;
+letter-spacing: 1.6px; 
+}
+
+body{
+background-image: url(https://animal-wallpaper.com/wallpaper/vintage-aesthetic-wallpapers-hd-resolution-For-Background-HD-Wallpaper.jpg);
+background-size: cover;
+}
+
+#header h1{
+color: white;
+text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+font-size: 30px;
+height: 150px;
+padding: 30px;
+transition: 1s;
+}
+
+#header h1:hover{
+font-size: 50px;
+height: 200px;
+padding: 55px;
+text-decoration: none;
+}
+
+.blog-delete-post,.blog-edit-post,.blog-moderate-topic,.blog-report-post,a.post-comment,a.post-replies{
+text-decoration: none !important;
+}
+
+img:not(latex):hover{
+animation: flash 1.5s;
+}
+
+@keyframes flash{
+0%{
+opacity: 0.8;
+filter: blur(3px) brightness(130%) saturate(130%);
+}
+}
+
+#search-widget>div{
+background-color: transparent;
+}
+
+.cmty-bbcode-bold,.cmty-bbcode-underline,.cmty-bbcode-italic,.cmty-bbcode-text-size,.cmty-bbcode-quote,.cmty-bbcode-hide,.cmty-bbcode-code,.cmty-bbcode-smiley,.cmty-bbcode-img,.cmty-bbcode-url,.cmty-bbcode-attachment,.cmty-bbcode-text-color,.cmty-bbcode-font-color-swatch,.cmty-bbcode-poll,.cmty-posting-forum-name,div.cmty-posting-font-color-swatch{
+transition: 1s !important;
+}
+
+.cmty-bbcode-bold:hover,.cmty-bbcode-underline:hover,.cmty-bbcode-italic:hover,.cmty-bbcode-text-size:hover,.cmty-bbcode-quote:hover,.cmty-bbcode-hide:hover,.cmty-bbcode-code:hover,.cmty-bbcode-smiley:hover,.cmty-bbcode-img:hover,.cmty-bbcode-url:hover,.cmty-bbcode-attachment:hover,.cmty-bbcode-text-color:hover,.cmty-bbcode-font-color-swatch:hover,.cmty-bbcode-poll:hover,.cmty-posting-forum-name:hover,div.cmty-posting-font-color-swatch:hover{
+border-radius: 10px !important;
+transform: scale(1.2) !important;
+}
+
+div.cmty-posting-submenu{
+border: none !important;
+}
+
+div#feed-tabs{
+box-shadow: 0px 0px 10px gray;
+transition: 0.5s;
+}
+
+div#feed-tabs:hover{
+box-shadow: 0px 0px 20px gray;
+}
+
+.feed-tab{
+opacity: 0.8;
+transition: 0.5s;
+}
+
+.feed-tab:hover{
+opacity: 1;
+color: pink;
+}
+
+#search-widget fieldset{
+position: absolute;
+top: 90px;
+z-index: 1;
+margin-left: 286px;
+border: none;
+}
+ 
+#search-widget input{
+height: 25px;
+width: 200px;
+border-color: #ffffff !important;
+z-index: 1;
+}
+
+div.entrywrap{
+border-color: lightgray;
+transition: 1s;
+filter: grayscale(60%);
+opacity: 0.8;
+}
+
+.entry{
+border: none !important;
+}
+
+div.entrywrap:hover{
+border-radius: 10px;
+filter: none;
+opacity: 1;
+}
+
+.inputbox{ 
+transition: 1s;
+border: none !important;
+}
+
+div#shouts-widget .inputbox{
+background-image: url(https://i.ibb.co/gM3VVKF/wq.png);
+background-size: cover;
+text-shadow: 0px 0px 10px black;
+color: white;
+font-weight: bold;
+}
+
+.inputbox:hover{
+border-radius: 50% / 10%;
+box-shadow: 0px 0px 15px 0px lightgray;
+}
+
+li.row1, li.row2{ 
+transition: 1s;
+}
+ 
+li.row1:hover, li.row2:hover{
+background-color: #ffffff;
+color: gray;
+box-shadow: 0px 0px 20px 0px white;
+}
+
+.blog-shout-wrapper>.aops-scroll-outer>.aops-scroll-inner{
+scrollbar-width: none;
+}
+
+.blog-shout-wrapper>.aops-scroll-outer>.aops-scroll-inner::-webkit-scrollbar{
+width: 0px; 
+}
+
+.cmty-poll-display{
+background-color: white;
+border: none;
+}
+
+.cmty-poll-display-top{ 
+visibility: hidden;
+}
+ 
+.cmty-poll-question{ 
+text-align: center;
+font-size: 24px;
+}
+
+.cmty-poll-select-no-results{
+margin-top: 10px;
+}
+
+.cmty-hide-heading, div.cmty-item-tag, .btn-primary, .cmty-tip-header, div.cmty-posting-forum-name, div.cmty-poll-result-bar{
+font-family: Overpass, sans-serif;
+letter-spacing: 0.8px; 
+word-spacing: 1.6px;
+transition: 1s;
+background: linear-gradient(to bottom right, yellow, pink) !important;
+color: #f7f8fa !important; 
+}
+
+.cmty-hide-heading:hover, div.cmty-item-tag:hover, .btn-primary:hover, .cmty-tip-header:hover, div.cmty-posting-forum-name:hover, div.cmty-poll-result-bar:hover{
+border-radius: 10px; 
+transform: scale(1.2); 
+box-shadow: 0px 0px 5px yellow;
+}
+
+.cmty-hide-heading{
+padding-top: 3px;
+}
+
+a{
+transition: 1s;
+}
+
+a:hover{
+filter: blur(1px);
+}
+
+p.description{
+font-size: 12px;
+font-weight: bold;
+font-style: oblique;
+background: linear-gradient(to bottom right, orange, lightblue) !important;
+-webkit-background-clip: text !important; 
+-webkit-text-fill-color: transparent !important;
+}
+
+a.post-replies:before{
+content: "t ";
+font-family: AoPS;
+}
+
+a.post-comment:before{
+content: "x ";
+font-family: AoPS;
+}
+
+.blog-delete-post:before{
+content: "J ";
+font-family: AoPS;
+}
+
+.blog-edit-post:before{
+content: "L ";
+font-family: AoPS;
+}
+
+.blog-moderate-topic:before{
+content: "X ";
+font-family: AoPS;
+}
+
+.blog-report-post:before{
+content: "Z ";
+font-family: AoPS;
+}
+
+a#blog-subscribe:before{
+content: "h ";
+font-family: AoPS;
+}
+
+a.blog-logout:before{
+content: "R ";
+font-family: AoPS;
+}
+
+a.blog-info:before{
+content: "? ";
+font-family: AoPS;
+}
+
+span#submit:before{
+content: "£ ";
+font-family: AoPS;
+}
+
+a#post-new-entry:before{
+content: "V ";
+font-family: AoPS;
+}
+
+h2:before{
+content: "L ";
+font-family: AoPS;
+}
+
+h2{
+display: none;
+}
+
+div#wrapper{
+animation: loading 2s;
+transition: 2s;
+}
+
+div#wrapper:hover{
+box-shadow: 0px 0px 20px black;
+}
+
+@keyframes loading{
+0%{
+transform: rotateY(20deg);
+opacity: 0.2;
+box-shadow: 0px 0px 15px black;
+filter: blur(3px);
+}
+80%{
+box-shadow: 0px 0px 2.5px black;
+filter: blur(0.5px);
+}
+90%{
+opacity: 1;
+}
+}
+
+#main::before{
+content: "i'm postbanned stop trying to message me";
+color: black;
+display: block;
+text-align: center;
+}
+
+a.username-colored, a.username-coloured{
+background: linear-gradient(to bottom right, yellow, pink) !important;
+-webkit-background-clip: text !important; 
+-webkit-text-fill-color: transparent !important;
+}
+
+.cmty-forum-admin a{
+color: #ea9 !important;
+}
+
+.cmty-forum-mod a{
+color: #090 !important;
+}
+
+code[class*="language-"]{
+color: #333;
+}
+
+p.avatar{
+background-image: url(https://i.ibb.co/FVHSCv8/w.webp);
+background-size: cover;
+height: 100px;
+border-radius: 10% / 50%;
+}
+
+p.avatar:hover{
+background-image: url(https://64.media.tumblr.com/ba7fec9533c081a266b468342f6bfa1a/tumblr_inline_ofvn99nevq1qfh58x_500.gif);
+}
+
+p.avatar img{
+display: none;
+}
+
+.aops-modal-frame.cmty-posting-modal{
+opacity: 0.95;
+}
+
+::-webkit-scrollbar{
+background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: lightgray;
+border: 3px solid gray;
+border-radius: 10px;
+}
+
+div#post-2352414.entry:after {
+content: "\a i just realized you can highlight specific entries in css \a\a definitely not about to use this for evil if i get postbanned";
+background: linear-gradient(to bottom right, yellow, pink) !important;
+text-weight: bold;
+-webkit-background-clip: text !important; 
+-webkit-text-fill-color: transparent !important;
+white-space: pre;
+font-weight: bold;
+font-style: oblique;
+}
