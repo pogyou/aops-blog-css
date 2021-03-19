@@ -1,0 +1,726 @@
+/*MATHICORN IS PRO AT CSS * ~rqhu/
+/*cornie is just pro in general*/
+/*AGREE*/
+/*prodigeeeeeee*/
+/*Wukong Was Not Here*/
+/*MATHIMUSHROOM! MATHITOMATOPOTATO*/
+/*Hey, I hope I did this right and didn't mess something up. Nice job!*/
+/*CSS credits to/inspired by kevinmathz, mathleticguyyy, pog, Puddles_Penguin, Wukong, etc.*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Comic Sans MS');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@keyframes fakeloadinganimation{
+0%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: 'Comic Sans MS';
+content: "happy";
+text-align: center;
+}
+1%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "happy";
+text-align: center;
+}
+2%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "happy";
+text-align: center;
+}
+3%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "happy";
+text-align: center;
+}
+4%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "happy";
+text-align: center;
+}
+5%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "happy";
+text-align: center;
+}
+10%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "10% happy";
+text-align: center;
+}
+15%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "15% happy";
+text-align: center;
+}
+20%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "20% happy";
+text-align: center;
+}
+25%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "25% happy";
+text-align: center;
+}
+30%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "30% happy";
+text-align: center;
+}
+35%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "35% happy";
+text-align: center;
+}
+40%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "40% happy";
+text-align: center;
+}
+45%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "45% happy";
+text-align: center;
+}
+50%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "50% happy";
+text-align: center;
+}
+55%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "55% happy";
+text-align: center;
+}
+60%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "60% happy";
+text-align: center;
+}
+65%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "65% happy";
+text-align: center;
+}
+70%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: 70% happy";
+text-align: center;
+}
+75%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "75% happy";
+text-align: center;
+}
+80%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "80% happy";
+text-align: center;
+}
+80.01%{
+width: 0px;
+top: calc(50vh - 50px);
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "almost there";
+text-align: center;
+}
+85%{
+top: calc(50vh - 100px);
+width: 300px;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "almost there";
+text-align: center;
+}
+100%{
+top: calc(150vh - 50px);
+width: 300px;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+content: "100% happy";
+text-align: center;
+}
+
+}
+html::before{
+content: "Loading...";
+height: 100px;
+position: fixed !important;
+margin: 0px;
+padding: 0px;
+top: calc(150vh - 50px);
+left: calc(50vw - 150px);
+background-color: purple;
+color: #8E7CC3!important;
+line-height: 100px;
+white-space: nowrap;
+font-size: 15px !important;
+z-index: 1000000000 !important;
+animation: fakeloadinganimation 2s ease !important;
+width: 300px !important;
+box-shadow: 0px 0px 0px 8px #8E7CC3, 0px 50vw 0px calc(50vw + 50vh - 50px) white, 0px 0px 0px 8px pink!important;
+/*The box shadow that makes the border is put before and after the background shadow, because of order issues (Firefox displays the first one on top, chrome displays the last one on top)*/
+}
+
+html::after{
+content: "Happy!";
+height: 100px;
+width: 0px;
+position: fixed !important;
+margin: 0px;
+padding: 0px;
+top: calc(150vh - 50px);
+left: calc(50vw - 150px);
+background-color: purple!important;
+color: white !important;
+line-height: 100px;
+z-index: 1000000001 !important;
+white-space: nowrap;
+font-size: 15px !important;
+animation: fakeloadinganimation 2s ease !important;
+overflow: hidden !important;
+}
+img:hover{
+animation: fade 1.5s ease;
+}
+@keyframes fade{
+0%{
+opacity: 0.2;
+filter: blur(3px);
+}
+80%{
+filter: blur(0.5px);
+}
+90%{
+opacity: 1;
+}
+}
+/* Body */
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Kalam;
+    background: url(https://i.ibb.co/v3y8tfg/a.jpg); /*image*/
+    /*background-repeat: repeat;*/
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 100%;
+}
+.cmty-post-edited .cmty-post-edit-info{
+display: none;
+}
+#header{
+height: 80vh;
+background-image: url("https://cdn.discordapp.com/attachments/608507600090169354/768680144146792468/unknown.png"); /*creds: PranavK2015*/
+background-position: center;
+    background-size: 100%;
+background-attachment:fixed;
+border-style:none;
+font-family: Pacifico;
+}
+#navigation_box{
+background-color: #674EA7!important;
+border-style:none;
+padding:0px;
+height:35px;
+position:fixed;
+transition:0.2s;
+}
+#navigation_box:hover{
+height:30px;
+padding:0px;
+}
+#navigation_box a{
+font-family: Pacifico;
+font-size:17px;
+transition:1s;
+}
+#navigation_box:hover a{
+font-size:17px;
+}
+#navigation_box a:hover{
+text-decoration:underline;
+}
+#left_navigation_box{
+text-opacity:0.2;
+}
+#left_navigation_box a{
+opacity:1;
+}
+div.total-posts , div.total-posts a{
+    background-color: #9a00ff;
+}
+div#header h1 {
+        margin-top: 200px;
+        margin-bottom: 0px;
+        text-align: center;
+        height: 70px;
+        line-height: 2;
+        font-size: 75px;
+        /* Fix to Align Header with Wrapper*/
+        width: 100%;
+        margin-left: auto;
+        margin-right: none;
+        color: #fff;
+        opacity: 1;
+}
+h2 {
+    color: black;
+    font-family: Pacifico;
+}
+}
+div#navigation_box div a {
+    display: inline-block;
+    text-decoration: none;
+    color: purple !important;
+    font-size: 15px;
+    font-family: Pacifico;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    height: 30px;
+}
+
+div.message {
+overflow: invisible;
+}
+div#navigation_box div a:hover {
+    background-color: #8E7CC3;
+    box-shadow: 0px 0px 0px 0px #9a00ff;
+    color: black !important;
+}
+/* Wrapper */
+#wrapper {
+    opacity: 1;
+    position: absolute;
+    width: 83%;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0px 0px 10px 0px lightyellow;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    top: 170px;
+    left: 7%;
+    border: none;
+    background-image: none;
+}
+/* Main */
+#main {
+    width: 70%;
+    float:right;
+}
+div.entry {
+    border: none;
+}
+.entry h1 a {
+    color: #9a00ff;
+}
+#main h1 {
+    color: black;
+}
+div.entrywrap {
+    background-color: #D9D2E9;
+    border: none;
+    border-radius: 10px;
+    font-size: 12pt;
+    box-shadow: 0px 0px 5px 0px #9a00ff;
+}
+.commentwrap {
+    background-color: #D9D2E9;
+    border: none;
+    border-radius: 0px;
+    font-size: 10pt;
+    box-shadow: 40px 100px 40px 100px #741B47;
+    margin-left: 10px;
+}
+div.comment {
+    border: none;
+}
+
+/* Side */
+#side {
+    background-color: #B4A7D6;
+    width: 28%;
+    float: left;
+    padding-left:20px;
+    padding-right:50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+li.row1{
+background-color: #D9D2E9;
+}
+li.row2{
+background-color: #B4A7D6;
+}
+#shout_post fieldset{
+    border: none;
+    padding-left: 0px;
+    padding-right:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+div.widget, div.user_menu {
+    padding: 5px !important;
+}
+div#shouts-widget {
+    padding: 0px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+div#shouts-widget div.widget-header {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+li.row1, li.row2 {
+    padding: 5px !important;
+    border-top:2px solid burgundy;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+li.row1:hover, li.row2:hover {
+    background-color: #8E7CC3;
+}
+li.row1 p, li.row2 p {
+    margin-top: 0px;
+}
+li.row1 p.shout_footer, li.row2 p.shout_footer {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.inputbox
+{
+    width: 95%;
+    box-shadow: 0px 0px 20px 0px #00f inset;
+    border-radius: 5px;
+}
+.inputbox{
+background-color: #9a00ff;
+font-family: 'Roboto', sans-serif;
+font-size: 14px; 
+letter-spacing: 0.8px; 
+word-spacing: 1.6px; 
+color: #FFFF00; 
+}
+
+#message {
+    margin-left: 1%;
+}
+#side > div:not(#shouts-widget) {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+#side > div:not(#shouts-widget):hover {
+    background-color: #8E7CC3
+}
+div.widget {
+    margin-bottom: 0px !important;
+    padding-bottom: 20px !important;
+}
+/* Links */
+.entry h2 a {
+    color: #9a00ff;
+}
+a {   
+}
+/* Entries and Comments*/
+#post-new-entry-p{
+text-align:left;
+padding-top:20px;
+padding:30px!important;
+margin-bottom:50px;
+margin-top:-11px!important;
+width:100%;
+top:48px;
+margin:auto;
+background-color:transparent!important;
+}
+#post-new-entry{
+color:white;
+font-family:Pacifico;
+font-size:17px;
+padding:3px;
+border:3px solid purple;
+transition:0.15s;
+}
+#post-new-entry:hover, #post-new-entry:focus {
+    padding:6px;
+    --hover: #D9D2E9;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    border-color: #a820a8;
+}
+#post-new-entry-p img{
+display:none;
+}
+.entry h2 strong a{
+color:purple !important;
+font-family:Pacifico;
+}
+.entry h2 strong a{
+color: #9a00ff;
+font-family:Pacifico;
+}
+div#tabs {
+    background-image: none;
+}
+div#tabs ul {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pulse:hover, .pulse:focus {
+	 animation: pulse 0.7s;
+	 box-shadow: 0 0 0 0.7em rgba(255, 255, 255, 0);
+}
+ @keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+ .raise:hover, .raise:focus {
+	 box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	 transform: translateY(-0.2em);
+}
+ .slide:hover, .slide:focus {
+	 box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+ .pulse {
+	 --color: #ef6eae;
+	 --hover: #ef8f6e;
+}
+ .raise {
+	 --color: #ffa260;
+	 --hover: #e5ff60;
+}
+ .slide {
+	 --color: #8fc866;
+	 --hover: #66c887;
+}
+ button {
+	 color: var(--color);
+	 transition: 0.25s;
+}
+ button:hover, button:focus {
+	 border-color: var(--hover);
+	 color: #fff;
+}
+ button {
+	 background: none;
+	 border: 2px solid;
+	 font: inherit;
+	 line-height: 1;
+	 margin: 0.5em;
+	 padding: 1em 2em;
+}
+/* Testing Flexbox to fix sidebar height */
+#content {
+    display: flexbox; /* IE 10*/
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+#side {
+    order: 1;
+}
+#main {
+    order: 3;
+}
+#content > div.clear {
+    order: 2
+}
+/* Blog Errors*/
+div#blog-errors {
+    z-index: 1000000000000000000;
+    position: absolute !important;
+}
+/* Other Stuff */
+div.entry > h2 > a > img {
+    display: none;
+}
+div.entry > h2 > a {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-image: none;
+    display: inline-block;
+    margin-right: 2px;
+}
+/* Codes and Quotes*/
+div.codetitle, div.quotetitle {
+    background-image: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    color: #9a00ff;
+    border: 2px solid purple;
+}
+div.codecontent > div {
+    font-family: Pacifico;
+}
+div.codecontent > div > ol , div.quotecontent{
+    margin-top:0px;
+    margin-bottom:0px;
+    border: 2px solid purple;
+}
+div.quotecontent {
+    background-color: #9a00ff;
+}
+fieldset {
+  border:none;
+}
+/* Wrapper */
+#wrapper {
+    opacity: 1;
+    position: absolute;
+    width: 90%;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8E7CC3;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 200px;
+    left: 7%;
+    border: none;
+    background-image: none;
+}
+/*Shout Box Spin*/
+#shouts-widget fieldset { border: none; }
+ li.row1, .row1 { }
+ li.row1:hover, li.row2:hover {
+ transition-delay: 0.0 s;
+ -webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ -o-transform: rotate(180deg);
+}
+.cmty-bbcode-bold,.cmty-bbcode-underline,.cmty-bbcode-italic,.cmty-bbcode-text-size,.cmty-bbcode-quote,.cmty-bbcode-hide,.cmty-bbcode-code,.cmty-bbcode-smiley,.cmty-bbcode-img,.cmty-bbcode-url,.cmty-bbcode-attachment,.cmty-bbcode-text-color,.cmty-bbcode-font-color-swatch,.cmty-bbcode-poll,.cmty-posting-forum-name,div.cmty-posting-font-color-swatch{
+transition: 1s !important;
+}
+.cmty-bbcode-bold:hover,.cmty-bbcode-underline:hover,.cmty-bbcode-italic:hover,.cmty-bbcode-text-size:hover,.cmty-bbcode-quote:hover,.cmty-bbcode-hide:hover,.cmty-bbcode-code:hover,.cmty-bbcode-smiley:hover,.cmty-bbcode-img:hover,.cmty-bbcode-url:hover,.cmty-bbcode-attachment:hover,.cmty-bbcode-text-color:hover,.cmty-bbcode-font-color-swatch:hover,.cmty-bbcode-poll:hover,.cmty-posting-forum-name:hover,div.cmty-posting-font-color-swatch:hover{
+border-radius: 10px !important;
+transform: scale(1.2) !important;
+}
+div.cmty-posting-submenu{
+border: none !important;
+}
+#search-widget>div{
+background-color: transparent;
+}
+.cmty-poll-display{
+background-color: #ededea;
+}
+.cmty-poll-display-top{
+visibility: hidden;
+}
+.cmty-poll-question{
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+}
+.cmty-poll-select-no-results{
+margin-top: 10px;
+}
+.cmty-poll-result-bar { 
+border-radius: 10px;
+}
+.btn-primary{
+transition: 1s;
+background: linear-gradient(to bottom right, purple, hotpink) !important;
+color: #f7f8fa !important; 
+font-family: Pacifico;
+border-radius: 10px; 
+}
+.btn-primary:hover{
+transform: scale(1.2); 
+box-shadow: 0px 0px 5px purple;
+}
+div#feed-tabs{
+box-shadow: 0px 0px 10px gray;
+transition: 0.5s;
+}
+div#feed-tabs:hover{
+box-shadow: 0px 0px 20px gray;
+}
+.feed-tab{
+opacity: 0.8;
+transition: 0.5s;
+}
+.feed-tab:hover{
+opacity: 1;
+color: pink;
+}
+#user-menu-widget a.username-colored{
+visibility: hidden;
+}
+#user-menu-widget a.username-colored:after{
+visibility: visible;
+content: "mathicorn pounced";
+margin-left: -60px;
+}
+div#post-2352745.entry:after {
+content: "mathicorn 𝓹 𝓸 𝓾 𝓷 𝓬 𝓮 𝓭";
+background: linear-gradient(to bottom right, purple, hotpink) !important;
+text-weight: bold;
+-webkit-background-clip: text !important; 
+-webkit-text-fill-color: transparent !important;
+white-space: pre;
+font-weight: bold;
+}
+#page-wrapper{
+background-size: cover;
+background: url(https://lh3.googleusercontent.com/-DJc6x_SiMt0/X-zUIFCF4rI/AAAAAAAAQiU/Nd-dlkvRJL8tFS9hkICAn0ROSBbhP-32gCK8BGAsYHg/s0/roses.jpg); 
+}
