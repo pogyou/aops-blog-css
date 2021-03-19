@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* imports roboto */
+ 
+.cmty-post-edited .cmty-post-edit-info{ /* removes number of edits message */
+display: none;
+}
+ 
+div.entry h2 img, div.comment h2 img { /* removes pencil before the "by _" message in comments */
+display: none;
+}
+ 
+.cfooter .author img {/* removes pencil before the "by _" message in entries */
+display: none;
+}
+ 
+#post-new-entry-p img{/* removes pencil before the post new entry button*/
+display: none;
+}
+ 
+#post-new-entry{/* post new entry button editing*/
+text-transform: lowercase;
+border-radius: 10px;
+}
+ 
+.entry{
+border-style: none !important; /* removes border between entries */
+}
+ 
+div .entrywrap, div .entrywrap-hover { /* makes entry border look good */
+border-color: #ededea;
+}
+ 
+#wrapper { /* around blog + makes rest of blog opaque so you can see the image */
+border-bottom: 5px solid #ededea;
+border-left: 5px solid #ededea;
+border-right: 5px solid #ededea;
+margin-bottom: 150px;
+padding: 0px 0px 0px;
+border-radius: 10px;
+width: 800px;
+background-color: purple;
+}
+ 
+#side{ /* makes right bar same color as everything else */
+background-color: #7851a9;
+border-radius: 10px;
+}
+ 
+#header h1 { /* header title settings */
+color: #f1f1da;
+font-size: 40px;
+height: 120px;
+width: 80%;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10% / 50%;
+}
+ 
+#header { /* header settings (image formerly https://i.ibb.co/1nZNWRv/1920.png) */
+background-image: url(https://i.ibb.co/TwrXJrV/my-new-blog-background.png);
+font-family: 'Times New Roman', sans-serif;
+text-shadow: #f5e1ae 1px 1px 0;
+border-radius: 10% / 50%;
+text-spacing: 10px;
+}
+ 
+/* colors insides white */
+div#header { 
+background-color: #8b63b8; 
+}
+ 
+div.message { 
+background-color: #8b63b8; 
+}
+ 
+div.entrywrap { 
+background-color: #8b63b8;
+}
+ 
+div.commentwrap { 
+background-color: #8b63b8; 
+} 
+ 
+body {  /* removes margins and adds background image */
+background-image: url(https://i.ibb.co/TwrXJrV/my-new-blog-background.png);
+font-family: 'Roboto', sans-serif;
+font-size: 14px; 
+letter-spacing: 0.8px; 
+word-spacing: 1.6px; 
+}
+ 
+.inputbox{ /* adds ferb gif for shoutbox, makes text white inside */
+font-family: 'Roboto', sans-serif;
+font-size: 14px; 
+letter-spacing: 0.8px; 
+word-spacing: 1.6px; 
+border-radius: 50% / 10%;
+}
+ 
+.row1{ /* shoutbox/comment coloring/rotation */
+background-color: #4b0082;
+border-radius: 10px;
+}
+ 
+.row2{ /* shoutbox/comment coloring/rotation */
+background-color: #483d8b;
+border-radius: 10px;
+}
+ 
+li.row1, li.row2 { /*shoutbox hover */
+border-top: 1px solid #fff;
+-webkit-transition: all 1s;
+-moz-transition: all 1s;
+-o-transition: all 1s;
+}
+ 
+li.row1:hover, li.row2:hover {
+background-color: #ffffff;
+}
+ 
+#navigation_box { /* removes border on navigation bar */
+border: none;
+background-color: #ededea;
+text-transform: lowercase;
+z-index: 10000000 !important;
+}
+ 
+#navigation_box a{
+border-bottom: 3px dotted white;
+border-radius: 10% / 40%;
+transition: 0.3s;
+}
+#navigation_box a:hover{
+background-color: white;
+}
+ 
+#side > div:not(#shouts-widget) { /* adds sidebar hover transition */
+transition: 0.5s;
+}
+ 
+#side > div:not(#shouts-widget):hover { /* adds sidebar hover transition */
+background-color: #8b63b8;
+}
+ 
+img:not(.latex) { /* adds corners for non-latex images */
+border-radius: 10px;
+}
+ 
+.cmty-poll-display { /* poll colors */
+background-color: #78184a;
+border-style: 1px;
+border-color: #f7e7d0;
+border-radius: 10px;
+}
+ 
+.cmty-poll-result-bar { /* result bars */
+background-color: #ffffff;
+border-radius: 10px;
+}
+ 
+.cmty-poll-display-top{ /* thing on top of polls */
+visibility: hidden;
+}
+ 
+.cmty-poll-question { /* poll question */
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+color: #fffff6;
+text-shadow: #000 1px 1px 0;
+text-transform: lowercase;
+}
+ 
+.btn-primary { /* button settings */
+background-color: #f5e1ae;
+text-transform: lowercase;
+border-radius: 10px;
+}
+ 
+.cmty-poll-select-no-results{ /* doesnt show SELECT 1 OPTIONS */
+visibility: hidden;
+}
+ 
+.cmty-bbcode-bold{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-underline{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-italic{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-text-size{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-quote{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-hide{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-code{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-smiley{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-img{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-url{
+border-radius: 10px;
+}
+ 
+.cmty-bbcode-attachment{
+border-radius: 10px !important;
+}
+ 
+.cmty-bbcode-text-color {
+border-radius: 10px !important
+}
+ 
+.cmty-posting-font-color-swatch{
+border-radius: 10px !important;
+}
+ 
+.cmty-posting-forum-name {
+border-radius: 10px !important;
+}
+ 
+.cmty-bbcode-poll{
+border-radius: 10px;
+}
+ 
+.cmty-posting-submenu {
+border: none;
+}
+ 
+.feed-tab{
+opacity: 0.88;
+}
+ 
+.cmty-forum-admin a{ /* changes admin colors */
+color: #b05937 !important;
+}
+ 
+.cmty-forum-mod a{ /* changes mod colors */
+color: #7ad975 !important;
+}
+ 
+.blog-login{ /* adds background for those that are not logged in (guest blocker) */
+position: fixed !important;
+top: 0 !important;
+left: 0 !important;
+width: 100% !important;
+height: 100% !important;
+z-index: 1000000 !important;
+background: black !important;
+color: transparent !important;
+}
+ 
+#search-widget fieldset{ /* search widget top */
+position: absolute;
+top: 100px;
+border: none;
+z-index: 1;
+margin-left: -10px;
+}
+ 
+#search-widget input{ /* search widget bottom */
+height: 25px;
+width: 200px;
+border-color: #ffffff !important;
+font-family: 'Roboto', sans-serif;
+border-radius: 10px;
+z-index: 1;
+}
+
+div.widget-header{
+display: none;
+}
+ 
+div.widget-footer{
+display: none;
+}
+ 
+div.widget-settings{
+display: none;
+}
