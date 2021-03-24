@@ -273,6 +273,12 @@ h2, h2 a{
 color: #808080 !important;
 font-style: normal !important;
 }
+div.entry h1 a, div.entry h2 a, #submit, .author a, .user_menu a, .cmty-item-tag{ 
+transition: 0.3s; 
+} 
+div.entry h1 a:hover, div.entry h2 a:hover, .cmty-item-tag:hover, #submit:hover, .author a:hover, .user_menu a:hover{ 
+background: #bfe8f2 !important; 
+}
 .message a, div.actions ul li a, div.modactions ul li a, .archive-row a, p a, a.bbcode_url, .cmty-post-target-note a, span.faux-link.cmty-poll-show-results, span.faux-link.cmty-poll-hide-results, div#contrib-widget a, a.username-colored, h2 a{
 transition: 0.3s;
 border-bottom: 3px solid #7eb1c2 !important;
