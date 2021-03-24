@@ -315,3 +315,10 @@ color: #808080;
 span.blog-num-comments:hover{
 color: #404040;
 }
+#side>div:not(#shouts-widget){
+transition: 0.5s;
+}
+#side>div:not(#shouts-widget):hover{
+background: #bfe8f2;
+border-radius: 5px;
+}
