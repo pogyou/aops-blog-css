@@ -149,7 +149,7 @@ color: #090 !important;
 transition: 1s !important;
 }
 .cmty-forum-admin a:hover, .cmty-forum-mod a:hover{
-color: gray !important;
+color: black !important;
 }
 code[class*="language-"]{
 color: #333;
