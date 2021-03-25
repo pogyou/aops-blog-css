@@ -322,3 +322,7 @@ transition: 0.5s;
 background: #bfe8f2;
 border-radius: 5px;
 }
+li:marker{
+font-weight: bold; 
+color: #f5f5f5;
+}
