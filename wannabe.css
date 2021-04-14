@@ -41,6 +41,7 @@ background: lightblue;
 text-transform: lowercase;
 top: -5px;
 border: none;
+position: fixed;
 }
 div#left_navigation_box a:last-child{
 background: #c6e4ee;
