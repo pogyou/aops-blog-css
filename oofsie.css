@@ -494,6 +494,14 @@ visibility: visible;
 content: "oofsie";
 margin-left: 40px;
 }
+/* OTHER STUFF */
 #feed-topic-list{
 opacity: 0.95;
 }
+div#archive-widget strong{
+transition: 0.5s;
+}
+div#archive-widget strong:hover{
+color: black;
+}
+
