@@ -6,9 +6,6 @@ font-family: 'Roboto', sans-serif;
 div.entry h2 img, div.comment h2 img, .cfooter .author img, #post-new-entry-p img, .cmty-post-edited .cmty-post-edit-info, .archive-month-header img, div.entry h2 img. div.cmty-poll-display-top{
 display: none;
 }
-#feed-topic-list{
-opacity: 0.95;
-}
 /* ALTERNATIVE NAVIGATION BOX (commented out, you would have to add 5px more padding on the header)
 #left_navigation_box, #right_navigation_box{ 
 float: none;
@@ -496,4 +493,7 @@ a.username-colored:before{
 visibility: visible;
 content: "oofsie";
 margin-left: 40px;
+}
+#feed-topic-list{
+opacity: 0.95;
 }
