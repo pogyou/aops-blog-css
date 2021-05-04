@@ -363,17 +363,17 @@ transition: 0.3s;
 border-bottom: 3px solid #7eb1c2 !important;
 text-decoration: none;
 }
-a.username-colored:before{
+a.username-colored{
 font-style: italic;
 border-bottom: 3px solid black !important;
 text-decoration: none;
 text-transform: uppercase;
 color: black;
 }
-a.username-colored:hover:before{
+a.username-colored:hover{
 background: #89c3d6;
 }
-.message a:hover, div.actions ul li a:hover, div.modactions ul li a:hover, .archive-row a:hover, p a:hover, a.bbcode_url:hover, a.username-colored:hover:before, .cmty-post-target-note a:hover, div#contrib-widget a:hover, h2 a:hover, span.faux-link.cmty-poll-show-results:hover{
+.message a:hover, div.actions ul li a:hover, div.modactions ul li a:hover, .archive-row a:hover, p a:hover, a.bbcode_url:hover, a.username-colored:hover, .cmty-post-target-note a:hover, div#contrib-widget a:hover, h2 a:hover, span.faux-link.cmty-poll-show-results:hover{
 border-bottom: 3px solid #618794 !important;
 }
 span.aops-icon.blog-delete-shout{
