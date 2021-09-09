@@ -239,3 +239,257 @@ BODY: 2018 aime i - 11010 00100 00000 - 1.5 hrs
 so in half the time i got 4 compared to my 5 using all the time, but my excuses are that this test had a lot of combo and that #3 was also badly worded (maybe im just salt). given more time #3 i wouldnt have gotten because bruh wording but #5 i mightve gotten and #7 i also mightve gotten; #9 i def wouldve gotten and #10,#13,#14 no because scary but #11 and #15 maybe
 
 but yeah this crushed my ego ahh hopefully ii is better
+
+TITLE: today - 6/21/2021 (peace09)
+BODY: quick recap because i need to spend the rest of the day preparing for my spanish exam tomorrow
+
+all the classes im teaching are going fine. 2nd scratch class was nice (my student was really quick during breakout rooms so i got to spend a lot of the time reading the half blood prince lol); 2nd moems class was also good (there's one student a bit behind than the other two but that's ok). 
+
+but oops, had my first precalc test today and got like 92... i was trying to review after but i accidentally closed the test window and now i cant go back and review... anyways i was able to see one question i got wrong it was like this logarithmic identity spam thing and guess what i said the answer was $\tfrac{\sqrt[10]{3C^2x+4C^2}}{\sqrt[15]{x+7}}$ but i got it wrong cuz the answer was $\tfrac{C^{1/5}(3x+4)^{1/10}}{(x+7)^{1/15}}$ now last time i checked those are the same and this is big bad bruh moment but maybe im just stupid (oops, i am, in that case...) well now my grade is like 95 lawlawlawl and all this was even like review which is even worse xDDD lol maybe i shouldve just stuck to amc+aime grind lol
+
+speaking of amc+aime grind earlier today i mocked the first amc10 for the first time in a while, having just finished the 2019 contest series on my blog... well oops i guess i didnt mock 2019 10b so ill have to do that but i wanted to keep up my timed tests. so oops um yeah i kind of got 11111 11111 10111 0111B 1BBBB which was aggresive compared to my official score 11111 11111 1B11B 1B1BB BBBBB which gave 105 so iguess i improved yet and yea ill do one of those analysis thingys - also ill hide just in case ppl havent mocked yet[hide=.]
+[list]
+[*] 1. standard. [/*]
+[*] 2. standard [/*]
+[*] 3. i almost messed this up and forgot what conversion factors were lol but standard (just me being stupid as usual) [/*]
+[*] 4. also nearly threw this one lol i got 4 cuz i thought alg=geo=nt which is clearly false because alg>geo>nt, so thats why we need to multiply by 3! yuh [/*]
+[*] 5. ya one of those first 10 logic thingys they always have just right like x<6 x>5 and x>4 and ur done [/*]
+[*] 6. yes good flavortext dj's first problem on amcs i think [/*]
+[*] 7. this was nice though i suspect its a common idea just v_2 and v_5 of 4000 are 3 and 5 and then add 1 for n=0 [/*]
+[*] 8. just get equation in # of quarters and # of nickels and guess a bit... [/*]
+[*] 9. haha i was trying to find sidelengths and stuff lol but basically 40-7-3^2 cuz similar triangles have the square of the coorespondign side ratio thingy ahh sry i cant type ahrd and gveyr long stuff ugh nvm [/*]
+[*] 10. oops substituted a=x^2 at first and realized 15 minutes before the clock that a=25-x^2 immediately wins yielding 6sqrt(x)=constant after bringing sqrt(a) to rhs and squaring [/*]
+[*] 11. each dice already must have 1 so just +3 or +2+1 or +1+1+1 and then (7c1)+2(7c2)+(7c3) ig [/*]
+[*] 12. oops screwed this up.. couldve gotten but ahh ugh shouldve left blank realized how to solve pretty late and was kind of rushed and first time thorugh i had like 5 min left or smth and i didnt leave enough time to check stupid me but basically i separated into |x|-|y|=1 and -1 and kind of did some casework stuff lawl [/*]
+[*] 13. nice oops i wrote a really problem at this point i should take for granted that every single problem i ever write will be really unoriginal... but basically cong triangles and pythag on bxc where x is intersection of crease and ac [/*]
+[*] 14. lol set equal to 81 and trivial but good problem [/*]
+[*] 15. nice dj geo yus a bit easy for placement but ig u need auxliary lines and the sim triangles are nice yes [/*]
+[*] 16. I GOT TROLLED ugh and this was even a nice problem gahhh i got 7 and said at the last moment i would but 8 stupid me i shouldve known there was nothing wrong with 7... i was just solving hte wrong problem rip [/*]
+[*] 17. just casework; 1 and 2 clearly dont work and after playing around 3 doesnt but 4 does so yay [/*]
+[*] 18. i knew it was something with base 3 but subtracting out a few cases where a_7=-1 because for all i=0,1,2,...,6 you can make a_{i+1} coeff be +1 if a_{i}=-1 and make a_{i}=2 if that makes any sense and then it's base 3 now (rough sketch) but i didnt have enough time to make out the details for the stuff i had to subtract out because first 15 were too time consuming [/*]
+[*] 19. ez digit cycles, not much else to say [/*]
+[*] 20. ugh d doesnt work but thats all i got power of 2 minus two... i got the tiles along the 4 lines of symmetry but again didnt have time to make out the other i think 24 tiles :crying_cat: [/*]
+[*] 21. trivial oops [/*]
+[*] 22. ugh i knew i could solve it when i saw the problem i knew i saw it somewhere maybe i actually did see it but gah didnt have time to solve asdfasdfasdfghghjkl [/*]
+[*] 23. this actually looks nice but again didnt have time... [/*]
+[*] 24. no. didnt even read [/*]
+[*] 25. no didnt even read... and for the last two maybe i shouldve read but 25 looke d too scary and 24.. well i didnt have time.. maybe i should make more time oops [/*]
+[/list][/hide] in general i also did bad on the first problems so i didnt have time for the last problems oof but ok good for first timed amc 10 in what 4 ish months?
+
+anyways bye sry for spamming posts with a lot of typos but at least i finished before 9 yay
+
+TITLE: some comments (pog)
+BODY: namely, comments on contest-managing (listen to literally anyone else for tips on contest-writing)
+
+it’s good to be ambitious, but not [i]this[/i] ambitious
+
+first. good testsolvers can't save a competition if all they're given is bad problems; this should be pretty obvious, since they can’t actually change the maximum problem quality of your contest (but they can point out errors or try to raise the minimum problem quality of said contest)
+
+second. please don’t just start problem writing for the first time and then proceed to spam math companies for thousands of dollars in sponsors, especially with a mediocre crowd/team of inexperienced people that barely write and problems reminiscent of a MATHCOUNTS school/chapter round
+
+... try again later, when you have new, original, insightful, [i]fun[/i] problems (i'm really not at this point either)
+
+irrelevant to this post but i started composing weird piano things again 
+
+i don't think anyone really wants to hear them but comment if you do
+
+TITLE: go outside (pog)
+BODY: It's hard to write about anything anymore—there are almost eight billion people in the world, and thus little to no probability that some twelve-year-old like me has any sort of insight to share, especially on a blog like this, [s]where I pretend to be oh-so-cool and edgy (despite my, in reality, pretty boring life).[/s] 
+
+But today, I want to talk about something you've heard before; social media. Recently, I've been looking at Twitter, and every single tweet that gets popular, whether normal or not, is filled with rude remarks, or just straight-up bad (as in, pedophiles) people; sometimes, it feels like this is all the world has to offer.
+
+However, I also recently went on a zip-lining & rafting trip. After more than a year of staying inside, I could talk to people outside of my family—that is, in-person—and actually talk to people that have lived their entire lives without knowing about the sort of things mentioned above, who just live, well, [i]normally[/i], without such a pessimistic view of the world.
+
+When I talked to these people, I kind of realized again that the sinking feeling I'd been feeling about the state of the world based on a select minority of anonymous people online was hardly accurate. Apparently, not everyone was like the worst people I'd met online. Well, for some reason, I was surprised at this. But yes, little me opened my eyes and found that not everyone in the world is a teenager & a Dream/K-pop stan. [s]Shocking.[/s]
+
+When I thought about this, I thought something along the lines of "Wow, I should go outside more often," but honestly, I [i]had[/i] seen nice people online, but I ignored it for the more new, "entertaining"—as in, makes you feel like garbage—drama. I wanna go back to when Twitter wasn't just Tumblr, and when TikTok wasn't just women danc- actually, TikTok was always women dancing.
+
+(I don't even have a Twitter account, but every time I look at it, I feel actively worse about myself—honestly, similarly to how I feel when I view the AoPS global feed, which is filled with the same immaturity & toxicity, if not to a lesser extent. Like, not everyone [i]has[/i] to have the same opinion as you.
+
+If you haven't seen me online recently, I've been talking to friends and feeling crappy about doing nothing during summer, thus sulking by continuing to not do anything. 
+
+I wrote this at 1am, on lined paper, and I made a promise to myself to force myself to post this today, seeing as my blog is [s]unsurprisingly[/s] dying.)
+
+TITLE: a reflection (peace09)
+BODY: darn i wanted the entry title to be all lower case "a reflection" in all caps doesnt seem right
+
+i suppose this isn't all that serious anyway
+
+[b]precalc / trig class.[/b] so far the content's been easy and also the teacher's - no other way to say it, [i]cool[/i] ("You know how to solve a quadratic equation with complex roots using the stupid quadratic formula, I know it; how is this ***** ever gonna help you with your future? Wonder why you're taught math, huh? I just go over to Desmos or WolframAlpha and let them do the work. No point bashing it all out on paper; besides, that kills trees."), though workload is huge compared to other classes ive taken (four days a week four hours a day loads of homework and two quizzes a week oops) and plus itll get harder and harder. thankfully it's only six weeks (it's a summer extensive) - im nearly 17% of the way there! :)
+[b]scratch class.[/b] went fine i suppose, flunked the demo for the third exercise cuz i was low on time and messed up something in the code i dont want to go into, but now i dont need to teach anymore - only got to be a breakout room leader which i suppose will still be hard but better than teaching :)
+[b]elementary moems class.[/b] cant call this teaching all i do is give them a mock and tell them to solve the problems lol
+[b]to - do.[/b] not having a list this time because those are hard to do but im almost finished with order of the phoenix while ive only finished horse and his boy lol; finished aoime post yesterday and solved #13 today (YEET) with trigbash (oops); ahead a tiny bit on precalc hw which is always good.
+
+this was a short post so apologies but i thot id check in. peace.
+
+TITLE: introooo (a1001)
+BODY: Hello, everyone! I'm A1001. I like flexing. I got a 10 on the AMC 10 one year ago. I'm such a god. I got a 94.5 on the AMC 10A this year. I did MATHCOUNTS this year. I like writing weirdly short sentences. I don't like to write random paragraphs about myself, but you have to admit this paragraph is pretty epic. I hate the Clippers because the have Paul George. Paul George is a bad player. Paul George should get out of CA because he's bad. Once I met an NBA player on this vacation. His name was Brook Lopez. He plays on the Bucks or something. He is a center but he shoots 3 pointers a lot for some reason. He's pretty weird not going to lie. I hate okra. Don't talk about okra. It sucks. If you like okra, I hate to say it, but you're weird. My favorite food is dog biscuits. They're really yummy for my tummy. I eat them a lot. So when I got a 94.5 on the AMC 10A, I threw a party because I was so close to qualifying for AIME!!!!!!! It was a good attempt. There's always next year. Unless the world explodes. If that happens, then there's no next year. That would be quite a tragedy. I like algebra because the word things use Bob which is the best name ever. I also like number theory because it has numbers and I like those. I also like combinatorics because counting is for cool kids. If you also like counting, comment down below. Also give a like. And smash that subscribe button. And hit the notification bell. And geometry is also pretty decent. You get to do shapes which is pretty epic. Shapes make me laugh and have fun because after I learn about circles I get cookies. Not going to lie, geometry is probably my favorite subject. Also, feel free to blast my DMs with congratulations for my 10 on the AMC 8 last year and my non-AIME qual score this year. It was awesome! Such a great year! Hopefully next year will be just as good, as this may even have been simply a tremendous amount of luck. Also, I was born in California.
+
+as you can tell, im pretty awesome
+really good at maf and all
+just orz me already
+
+TITLE: first post (peace09)
+BODY: [b]brief introduction.[/b] peace09, eleven years old, fifth grade. math lover, violin enthusiast, soccer player. avid blogger.
+[b]precalc / trig class.[/b] im taking a precalc / trig class at a local community college whose name i will no disclose (bc location reveal lawl) but basically it's six weeks, four days a week, and four hours a day (w/ a lot of hw). had my first class today and it was pretty exhausting... it was also pretty easy (covered linear functions) though (a) there was a bunch of statistics / microecon stuff imbedded into it (scatter plots, interest rates, linear regression, etc.) and (b) i can see it getting hard really fast so i have to up my game. i tryharded class notes today but i found just doing hw during class much more effective lol. as of write now i have finished one out of two units of my homework, each of which having ~20 problems with ~3 parts each... for the one i have completed right now, i got all 26 questions on the first try except for problem 19 part (b) - oops, prices are nonnegative and equilibrium price is not equal to equilibrium quantity - and problem 20 part (a) - oops, straight line depreciation is confuzzling and x is domain, y is range :roll:. all sillies pretty much so i just have to pay more attention; for the first 15 questions i was really focused but then my concentration started slipping lol. thankfully homework does not count towards my grade, though my teacher said it is still practically obligatory ("strongly recommended") [s]probably because the quiz / test / exam problems are stripped off the homework[/s] anyways, my first community college class so im trying to give it my all
+[b]scratch class.[/b] im teaching a scratch (lol imagine good at coding oops) class for missionary kids at morocco and i got stuck with the first lesson on the motion blocks. i have two hours so my schedule is probably going to look something like this: [list] [*] [0:00] start / opening prayer [/*] [*] [0:05] icebreakers (name, age, favorite food, favorite bible character, favorite pastime) [/*] [*] [0:10] samuel project [/*] [*] [0:15] first teaching session [/*] [*] [0:30] first breakout room session [/*] [*] [0:40] check exercises [/*] [0:45] second teaching session [/*] [*] [1:00] second breakout room session [/*] [*] [1:10] check exercises [/*] [1:15] third teaching session [/*] [*] [1:30] third breakout room session [/*] [*] [1:40] check exercises [/*] [*][1:45] start homework [/*] [*][2:00] end / closing prayer [/*] [/list] basically i start with a small project to show what you can do with scratch, and then i split the motion blocks into three groups, teaching them one at a time, doing a quick demo, sending them into breakout rooms to do some exercises, picking on one of them + checking their codes, repeat three times. if there's time left, then get started on homework. right now i have the slides nearly finished (have to add something for the third teaching session), all the exercises finished, but haven't started the homework. oops. gotta stop procrastinating :coolspeak: (though maybe im being too harsh on myself? been working nearly nonstop (like, fifth grader nonstop :)) the past few days so...) also sry for slightly religious stuff hopefully you dont mind
+[b]elementary moems class.[/b] im teaching an elementary moems (lol imagine hard competitions oops) class for my sister and a few of her friends. they had a "math discussion" on mondays throughout the school year (now they're on wednesdays i think or maybe it's just for this week) where they just discussed problems from beast academy, singapore math, that generic math textbook whose name i forgot, etc. most of them are starting elementary moems this year and since i did [hide=good]
+[url=https://artofproblemsolving.com/community/c1966545h2490912]here[/url] and [url=https://artofproblemsolving.com/community/c1966545h2494076]here[/url] checkitout :) [/hide] this year my mom asked me if i wanted to teach, and even if i dont like actually taking the competition i think ill like teaching it so i said sure but haven't really done any prep oops but my mom said it's very informal so that's good. i still have to do some prep but i think ill just introduce them to the contest and instead of doing the book of mocks (which we'll be using in general throughout the summer) we'll just be solving as many problems as possible from the online sample because no time to do a whole mock anyways. dk what else to say lol.
+[b]to - do.[/b] other than the stuff that i normally do regularly / on a standard basis:
+[list]
+[*] top - priority. precalc / trig class (finish 2.2 homework [today]), scratch class (finish slides [friday], start hw [today]), moems class (prep [wednesday]) [/*]
+[*] low - priority. 2020 aime ii a.k.a. aoime problems + solutions (do everything [saturday] - check out my blog lol shameless ad), the horse and his boy (finish [saturday] - read lww and magician's nephew during the school year), harry potter #1 (finish [saturday] - read the first six books a long time ago but mom said seventh book too scary for me at the time lawl) [/*]
+[/list]
+also [url=https://artofproblemsolving.com/community/c1966545h2583024_stream_friday_330_pdt_pls_come_]check it out![/url] also while writing this i just bombed a true / false question on my precalc / trig class which ruined my perfect (can't have any more tries clearly) :coolspeak:! also hopefully not too low quality oops!
+
+bye. peace.
+
+TITLE: animal crossing (pog)
+BODY: in animal crossing there's this feature where you can off yourself from the island forever and have nobody remember (or have any sort of material evidence) that you ever existed
+
+wish i could do that in real life
+
+TITLE: AMC 10/AIME Mocks (pog)
+BODY: [b]AMC 10[/b] 
+2019 AMC 10A (102)
+2020 AMC 10A (118.5)
+2020 AMC 10B (100.5)
+
+[b]AIME[/b]
+
+TITLE: Introduction (pog)
+BODY: [i]I can already hear you clicking off this blog.[/i]
+
+
+
+I made some weird, cheesy changes to the CSS, but enough of CSS; let's talk about me, because I am selfish and annoying. Wow, I've already introduced myself in full!
+
+See, based on the last few times I introduced myself to other people, it's pretty clear I have no idea how to introduce myself and be engaging at the same time, seeing as I'm just not that interesting of a person.
+
+I could tell you about the things I've done in life, but I haven't done much in life.
+
+I could tell you about my interests, but I'm not interested in much.
+
+Huh.
+
+Well, I'm pog, a twelve-year-old, seventh grade postfarmer on AoPS. I write problems for the [url=https://detoasty3.github.io/dmc]DMC[/url] committee and am in [url=https://artofproblemsolving.com/community/c5h2451534]Gaussian Curvature[/url]/ALP. I like to write problems, type, play video/board games, and watch YouTube. 
+
+I do my assignments in school when I have to, and I've been playing piano for an amount of time exceeding eight years, despite having minimal interest in it (I occasionally compose pieces, and only practice when I feel like it, which tends to result in failure, because that results in my never practicing). 
+
+In case you couldn't tell, I like to blog (not really writing so much, but I guess writing is fine), and I love to complain about the state of AoPS, despite having partially caused its downfall, in a sense. 
+
+Yeah, that's it. Refer to me with anything you want, but I prefer he/him.
+[rule]
+Comments always appreciated,
+
+[color=#ea9]pog[/color]
+
+TITLE: 2019 AMC 10A/19 + Some Goals (pog)
+BODY: [i]This is a combination of two entries from the old platitudes; one of which is just a solution to a math problem, and the other of which is, well, some goals.[/i]
+
+(This is a combination of two entries from the old platitudes; one of which is just a solution to a math problem, and the other of which is, well, some goals. This is also the last repost I'll be doing, because the final, unreposted entry is bad.)
+[rule]
+[font=problem][b]Problem (2019 AMC 10A/19):[/b] What is the least possible value of\[(x+1)(x+2)(x+3)(x+4)+2019\]where $x$ is a real number?
+
+$\textbf{(A) } 2017 \qquad\textbf{(B) } 2018 \qquad\textbf{(C) } 2019 \qquad\textbf{(D) } 2020 \qquad\textbf{(E) } 2021$[/font] [i]Solution:[/i] Note that $(x+2)(x+3)=(x+1)(x+4)+2=(x^2+5x+4)+2$, so $(x+1)(x+2)(x+3)(x+4)+2019=(x^2+5x+4)(x^2+5x+6)+2019$. Note that $x^2+5x+6=(x^2+5x+5)+1$ and $x^2+5x+4=(x^2+5x+5)-1$, so, by differences of squares, $(x^2+5x+4)(x^2+5x+6)+2019$ is equal to $(x^2+5x+5)^2 - 1+2019$. Since $x$ is a real number, $x^2+5x+5$ is also a real number, so by the Trivial Inequality, the least possible value of $(x^2+5x+5)^2-1+2019$ is given when $x^2+5x+5=0$ (don't forget to check that $x^2+5x+5$ has real roots). Thus, the least possible value of $(x+1)(x+2)(x+3)(x+4)+2019=(x^2+5x+5)^2-1+2019$ is given when $x$ is a root of $x^2+5x+5$, for a final answer of $0 - 1 + 2019 = \boxed{\textbf{(B) }2018}$.
+
+[i]Alternative Solution:[/i] Let $a=x^2+5x+4$. Then $(x+1)(x+4)=a$ and $(x+2)(x+3)=a+2$, so $(x+1)(x+2)(x+3)(x+4)+2019=a(a+2)+2019$, after which expanding gives $a^2+2a+2019$. Clearly $a$ must be at the vertex of the graph of $a^2+2a+2019$ to minimize it, so we want  $a={-}\dfrac{2}{2 \cdot1}={-}1$, giving $x^2+5x+4={-}1$. Adding $1$ to both sides of $x^2+5x+4={-}1$ gives $x^2+5x+5=0$ (don't forget to check that $x^2+5x+5$ has real roots), so the least possible value of $(x+1)(x+2)(x+3)(x+4)+2019=a(a+2)+2019$ is given when $x$ is a root of $x^2+5x+5$, for a final answer of $-1(1)+2019=-1+2019=\boxed{\textbf{(B) }2018}$.
+ 
+[b]Remark:[/b] I originally tried to find the least possible value of $(x^2+5x+4)(x^2+5x+6)+2019$, but since I thought $x$ had to be the vertex of $x^2+5x+4$, I got a result that was obviously not the least possible value of $(x+1)(x+2)(x+3)(x+4)+2019$ (the product of two negative numbers can be positive, after all).
+
+Next, here are some goals for this year (rather pessimistic, because I tend to find mocking AIMEs and AMC 10s boring, since I can't solve enough problems to last the whole hour or three):
+
+[hide=Goals]
+Get AMC 8 HR (75%)
+Get AMC 8 20+ (40%)
+Get AMC 8 DHR (10%)
+Get AMC 8 23+ (5%)
+Make AIME (50%)
+Get AMC 10 110+ (30%)
+Get AMC 10 HR (25%)
+Get AMC 10 120+ (10%)
+Get AMC 10 DHR (5%)
+Get AMC 10 130+ (1%)
+Get 5+ AIME (50%)
+Get 7+ AIME (10%)
+Get 10+ AIME (1%)
+Get 200+ USAJMO Index (5%)
+Make USAJMO (1%)
+Make MATHCOUNTS Chapter (80%)
+Make MATHCOUNTS State (50%)
+Make MATHCOUNTS Nationals (1%)
+Maintain a 4.0 GPA (40%)
+Get into Thomas Jefferson High School for Science and Technology (20%)
+Get a blog readership (80%)
+Make more than one friend at school (50%)
+Do some competitions other than AMC/MATHCOUNTS (80%)
+Mock every AMC 10 since 2010 (30%)
+Mock every AMC 12 since 2010 (5%)
+Mock every AIME since 2010 (10%)
+Get better at problem writing (25%)[/hide]
+[rule]
+Comments always appreciated,
+
+[color=#ea9]pog[/color]
+
+TITLE: 2020 AMC 10A Breakdown (pog)
+BODY: [i]I was mocking the 2021 AMC 10A, but since I didn't want to get bored for the last 30 minutes, I reduced my time to only 45 minutes. Uh oh.[/i]
+
+So, I've decided that my policy is that I'll add anyone who asks to be added to this blog. (If I [i]do[/i] add you, please do not take that as an invitation to spam.) Otherwise, I won't bother typing names into a box for two hours, because that's a waste of time, and nobody I add checks this blog anyways.
+
+(This entry is from the old platitudes, and it's basically just a gigantic flex, so here you go.)
+[rule]
+I took the 2020 AMC 10A on [url=https://enigmatology.github.io/contest-mock]Enigmatology[/url]'s mock contest feature (by CoolCarsOnTheRun. Nice job on the website, by the way), but since I didn't want to get bored for the last 30 minutes, I reduced my time to only 45 minutes. Uh oh. However, it went surprisingly well, so [hide=here's][b]Summary:[/b] Surprisingly solved 18, expected a couple sillies. Didn't get any, for a score of 118.5. How... well, anyways [color=#6d915d]this color[/color] means I got the question right and [color=#ea9]this color[/color] means I left it blank, since I didn't get any wrong. (This is a flex. Please bow down.)
+
+[color=#6d915d][b]1.[/b][/color] Trivial computation.
+[color=#6d915d][b]2.[/b][/color] Trivial computation; spent too much time checking my answer.
+[color=#6d915d][b]3.[/b][/color] Pretty simple.
+[color=#6d915d][b]4.[/b][/color] Trivial computation.
+[color=#6d915d][b]5.[/b][/color] Solved by factoring each case because I forgot Vieta's (this turned out to be a good thing).
+[color=#6d915d][b]6.[/b][/color] Easy enough.
+[color=#6d915d][b]7.[/b][/color] Easy enough.
+[color=#6d915d][b]8.[/b][/color] Took pretty long to find arithmetic sequence.
+[color=#6d915d][b]9.[/b][/color] Took pretty long to make sure I didn't silly.
+[color=#6d915d][b]10.[/b][/color] Took extremely long; used raw computation and some cancelling.
+[color=#6d915d][b]11.[/b][/color] Easy enough.
+[color=#6d915d][b]12.[/b][/color] Solved right at the end, after getting stuck for a bit and skipping. Found $[\triangle AUV] = \dfrac14 [\triangle AMC]$ and used trapezoid area formula with bases $UV = 4\sqrt2$ and $MC=8\sqrt2$ (immediately remembered $2:1$ ratio for medians in a triangle, but almost forgot the definition of a median).
+[color=#ea9][b]13.[/b][/color] Did not solve; could have used casework, but didn't bother, because it's a frog problem.
+[color=#ea9][b]14.[/b][/color] Neglected bashing value of $x^5+y^5$ out (however, seeing the solution, it was not as annoying as I expected, so this was a mistake on my part).
+[color=#6d915d][b]15.[/b][/color] Easy enough.
+[color=#6d915d][b]16.[/b][/color] Estimated $\dfrac{1}{\sqrt{2\pi}}$ as $\dfrac{1}{2.5}=0.4$, which worked.
+[color=#ea9][b]17.[/b][/color] Got to $2+6+10+\cdots+194+198$ but somehow got sidetracked (like an idiot).
+[color=#6d915d][b]18.[/b][/color] Easy enough; for some reason, I bothered listing out the possibilities to get the product of two of the variables even.
+[color=#ea9][b]19.[/b][/color] Could not see diagram on website; probably couldn't have solved anyways.
+[color=#ea9][b]20.[/b][/color] Didn't even bother.
+[color=#6d915d][b]21.[/b][/color] Remembered problem; maybe could have solved otherwise.
+[color=#6d915d][b]22.[/b][/color] Remembered main idea of problem; maybe could have solved otherwise.
+[color=#6d915d][b]23.[/b][/color] Trivial with a combination of casework and the realization that a reflection across the $x$-axis must be followed by a reflection across the $y$-axis.
+[color=#ea9][b]24.[/b][/color] Didn't even bother.
+[color=#ea9][b]25.[/b][/color] Didn't even bother.[/hide] a breakdown. ([b]Note:[/b] I may not have been able to solve 21, 22, or 23 without having seen the problem statements previously.)
+
+For some reason, most of my old blogs got deleted, which is annoying, since I'd like to see them later in life (for posterity). Regardless, I'll just ignore them for now and email the admins when I'm much older, assuming I remember that they exist by then.
+[rule]
+Comments always appreciated,
+
+[color=#ea9]pog[/color]
+
+TITLE: The Last Blog (pog)
+BODY: [i]Pretty sure this will be the last one...[/i]
+
+
+
+Well, I don't think anyone (not even myself, really) believes me when I say this, but I do truly think that this blog will be the last blog that I make.
+
+Anyways, in the past few days, I've been doing my late assignments (having made a productivity schedule at 11pm yesterday with no WiFi), completely ignoring piano, and haphazardly looking over blog numbers (you can tell I've been trying really hard, looking at the blog number that I have right now), Discord, and the draft of the [url=https://artofproblemsolving.com/community/c594864h2553348]2021 DMC 10,[/url] which has thankfully gained some traction.
+
+Yes, I already had a blog named platitudes, but I [i]did[/i] say I would repost that blog... I just didn't tell you why. (It was in a seven-day long trek to a better blog number with [url=aops.com/community/user/offset]Offset[/url], who got [url=https://artofproblemsolving.com/community/c2000000]2,000,000;[/url] if I were to have told you about the category numbers approaching 2,000,000, you probably would've sniped it, so I didn't.)
+
+I would put some rules here, but I think you already know what to do, seeing how I've made over twenty 'last' blogs now.
+
+I'll be reposting my entries from the other platitudes, so look forward (or backward, if you're one of the few who already saw those entries) to some new content.
+
+Comments always appreciated,
+
+[color=#ea9]pog[/color]
+[color=#f00]Offset - LOL yea what a journey[/color]
+[color=#ea9]pog - this title sort of reminds me of the last doll from the little princess[/color]
