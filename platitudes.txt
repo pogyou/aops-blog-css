@@ -1,0 +1,163 @@
+TITLE: has no one figured out that (pog)
+BODY: masks are worse at stopping others from giving covid to you than stopping you from giving covid to others
+
+as in:
+1. not wearing a mask does not “only affect yourself”
+2. if you don’t have covid, you should still wear a mask to stop others from giving you it
+ 
+bye besties
+
+TITLE: best amc 8 problem in existence (peace09)
+BODY: sorry i am uncontribbing from this blog and all other blogs except mine since my eyes are trash and im basically leaving aops forums and blogs indefinitely tho ill still do alcumus and respond to pms and all that
+
+ofc aops leaves dont last long lol but at least for the time
+
+as a treat
+
+the best amc8  problem in existence
+
+(well at least from the official ones)
+
+[b]Problem (2015 AMC 8 #25):[/b] One inch squares are cut from the corners of this five inch square. What is the area in square inches of the largest square that can fit into the remaining space?
+[asy]
+draw((0,0)--(0,5)--(5,5)--(5,0)--cycle);
+filldraw((0,4)--(1,4)--(1,5)--(0,5)--cycle, gray);
+filldraw((0,0)--(1,0)--(1,1)--(0,1)--cycle, gray);
+filldraw((4,0)--(4,1)--(5,1)--(5,0)--cycle, gray);
+filldraw((4,4)--(4,5)--(5,5)--(5,4)--cycle, gray);
+[/asy]
+$\textbf{(A)  } 9\qquad \textbf{(B)  } 12\tfrac{1}{2}\qquad \textbf{(C)  } 15\qquad \textbf{(D)  } 15\tfrac{1}{2}\qquad \textbf{(E)  } 17$
+
+[b]Solution (Own):[/b] Consider the following diagram:
+[asy]
+size(75);
+draw((0,0)--(0,5)--(5,5)--(5,0)--cycle); 
+filldraw((0,4)--(1,4)--(1,5)--(0,5)--cycle, gray); 
+filldraw((0,0)--(1,0)--(1,1)--(0,1)--cycle, gray); 
+filldraw((4,0)--(4,1)--(5,1)--(5,0)--cycle, gray); 
+filldraw((4,4)--(4,5)--(5,5)--(5,4)--cycle, gray); 
+path arc = arc((2.5,4),1.5,0,90); 
+pair P = intersectionpoint(arc,(0,5)--(5,5)); 
+pair Pp=rotate(90,(2.5,2.5))*P, Ppp = rotate(90,(2.5,2.5))*Pp, Pppp=rotate(90,(2.5,2.5))*Ppp; 
+draw(P--Pp--Ppp--Pppp--cycle); 
+filldraw((1,4)--P--(4,4)--cycle,gray);
+filldraw((4,4)--Pppp--(4,1)--cycle,gray);
+filldraw((1,1)--Ppp--(4,1)--cycle,gray);
+filldraw((1,1)--Pp--(1,4)--cycle,gray);
+[/asy]
+The desired square is composed of the central square with sidelength 5 - 1 - 1 = 3 and the four gray right triangles with hypotenuses 3 and heights 1, so its area is simply $$3^2 + 4 \cdot \frac{3 \cdot 1}{2} = 9 + 6 = 15 \rightarrow \boxed{\textbf{(C)}}.$$
+
+TITLE: fun fact about me (pog)
+BODY: i don't want to do anything other than mindlessly stare at a computer, yet i feel like garbage when mindlessly staring at a computer
+
+TITLE: oops this blog is dead (peace09)
+BODY: lol i havent mocked in so long i got sub 25 on amc 8 :cri:
+
+2014 amc 8 - 11111 11111 11111 11011 11101 - 40 min
+
+1 - 15: 1 - 10 level on modern amc 8 oops
+
+16: uh ok wording through me off but basically 2*(8c2) + 4*8
+17: um just like 15 min used and u have to do 1/2 mi in 5 min?
+18: oUIJKMLKljfndsf i got trolled so hard :D i put (C) because HEYYY (C) is (4c2) * (1/2)^4 and (D) is def (4c1) * (1/2)^4 heheheh fasdjfknjlk
+19: um ok just put one in the center and the other five at the centers of five of the faces
+20: ok 15-(1^2+2^2+3^2)pi/4 and pi=3.14 go do it
+
+16 - 20: 10 - 15 level on modern amc 8 oops
+
+21: ok divisibility rules bruh
+22: ok xy+x+y=10x+y and then xy=9x and x cancels out nice problem i guess
+23: ok just do like 11,13,17 and mess around
+24: ok so i definitely didn't give 1 to each customer AND THEN THINK THERE ARE 252 CUSTOMERS AND PUT (A) how did i even do that lol
+25: uh just C=2rpi and then bash???
+
+21 - 25: 15 - 20 level on modern amc 8 oops
+
+bad test and no good problems with all the first 24 being trash i was hoping for a good #25 geo like for 2015 but no, you have to ruin it with C=2rpi spam and rates :stretcher: well at least i got dhr lmho
+
+also im trying to right a mock and failing oops :coolspeak: original combo and nt are impossible to write !1!1!!!1!
+
+aight peace out
+
+TITLE: i had to change the description of my blog
+BODY: i'm 13 now... so cool.
+
+also check out offset's new post on my neighbor blog [url=https://artofproblemsolving.com/community/c2000000h2619368_setwithfriends_solo_record]here[/url]
+
+TITLE: It's About Time...
+BODY: 2016 AMC 8 - 11111 11111 11111 11111 11111 - 40 Min
+
+[list]
+[*] 1. Trivial by 665. [/*]
+[*] 2. BH/2. [/*]
+[*] 3. +0, +10, +20, -30 from Mean. [/*]
+[*] 4. (4 * 60) / 10  - (3 * 60 + 3) / 15 Yields (B). [/*]
+[*] 5. Guess and Check FTW :) [/*]
+[*] 6. Uh... Common Sense. [/*]
+[*] 7. Uh... Common Sense. [/*]
+[*] 8. Uh... Common Sense. [/*]
+[*] 9. Ok 2 + 3 + 7 by Common Sense. [/*]
+[*] 10. Ok 2 * 3 - (5 * 3 - X) = 1 by Common Sense. [/*]
+[*] 11. (10A + B) + (10B + A) = 11A + B = 132; A + B = 12; 0 < A < 10, -1 < B < 10. [/*]
+[*] 12. Assume 24 Total Students xD [/*]
+[*] 13. Uh (6 - 1) / (6 Choose 3) Wins. [/*]
+[*] 14. Uh 14 - 350 / 35 + 8 - X = 7. [/*]
+[*] 15. Uh 13^4 - 11^4 = (13 - 11)(13 + 11)(13^2 + 11^2). [/*]
+[*] 16. Uh 1600, 2000. [/*]
+[*] 17. Uh 10^3 - 10. [/*]
+[*] 18. Uh 6^2 + 6 + 1. [/*]
+[*] 19. Uh 25X = 40000, X + 2 * 12 = ? [/*]
+[*] 20. Uh B = 3. [/*]
+[*] 21. Uh "Think About It!" Suffices. [/*]
+[*] 22. The first and unfortunately the only decent problem. If $X = \overline{BE} \cap \overline{CF}$ then $\tfrac{BX}{XE} = \tfrac{CX}{XF} = \tfrac{1}{3}$ since $\triangle BCX \sim \triangle EFX,$ and $BX + XE = CX + XF = 2\sqrt{5}$ implying $[BCX] = \tfrac{1}{2}$ and $[EFX] = \tfrac{9}{2};$ the rest is just complementary counting and arithmetic. [/*]
+[*] 23. Whoops just $\triangle ABE$ is equilateral and the two isosceles triangles are 30 - 30 - 120... [/*]
+[*] 24. Whoops just divisibility rules wins... [/*]
+[*] 25. Ah, nearly every AMC 8 #25 is one of those funky circle things but this is even easier; this is just the distance between the midpoint of the base to one of the legs which is trivialized by BH/2 (The equation is 8 * 15 = 17 * R)... [/*]
+[/list]
+
+So at last, a 25, but a bit too late; already the test feels a bit too easy and I spent nearly 10 minutes only double checking. I'll probably only mock up to like 2010 (For the AMC 10s and AIMEs 2000, I'll probably do the older AIMEs for fun [s]and solve a #15 on my own for once[/s]) and then look for some high quality user made mocks; the only good problem on this test was #22 which was actually just similar triangles that looked exactly like 2017, 2018, and 2019's last five geos.
+
+But I am happy with a 25 and the only question now is if i can get this consistently. [hide=todo]
+-Finish typing up sols for 3000th post
+-Mock 2017 AMC 10B
+-Anticipate end of precalc class :eyes: and study for final exam :cry:
+
+Actually speaking of the precalc class today was the first time i actually learned it was quite fun i learned demoivre's which was really nice!!! learning vectors and conics for the next few classes which dont seem too fun but i think it will be nice anyhow. [/hide]
+
+ok peace out actually ill say peace09 out 
+
+TITLE: YUH THAT'S MORE LIKE IT
+BODY: 2017 AMC 10A - 11111 11110 11111 11111 1111B - 75 Min
+
+[list]
+[*] 1. Whoops, the hardest AMC 10 #1 I've done; probably took me more than any other of the first ten problems. Cost me two attempts, more than half a page, and three minutes at the least. :( [/*]
+[*] 2. Ok 3/5 < 2/3 < 1/1 so Pablo buys as many 5packs as possible, and then 3packs, and then 1packs. Ans is (Floor 8/3) + (Floor (8 - Floor 8/3)/2) + (Floor (8 - Floor (8 - Floor 8/3))/1) or something whoops I regret trying to type that out but whatever. [/*]
+[*] 3. (12 + 3)(6 + 4) - 6 * 2 * 6  = 15 * 10 - 6 * 2 * 6 = 150 - 72 = 78. [/*]
+[*] 4. LOL (D) FTW In all seriousness after 27 30sec periods have elapsed, we have 27 toys in the box, and after another 30sec period has elapsed, we have 30 toys in the box before Mia takes three out, and this is the first time we have all 30 toys in the box, so 30 * 28 / 60 = 60 * 14 / 60 = 14. [/*]
+[*] 5. Divide both sides by the product and use the identity (a+b)/(ab) = 1/a + 1/b. [/*]
+[*] 6. I guess the critical thinking class I took an year and a half or so ago has helped me a lot... Anyway, given a proposition, its inverse and converse (which, if you think about it, will always have the same truth value) do not necessarily have the same truth value as the proposition itself, but the contrapositive (which is sort of a combination of the inverse and converse) does. [/*]
+[*] 7. Bruh. 1 - Sqrt(2)/2 and Sqrt(2) = 1.4 should suffice. [/*]
+[*] 8. ??? Just 10 * 20 + (10 Choose 2). [/*]
+[*] 9. Ouch I blanked on this... Take back what I said for #1 I think this took me about 5 minutes or so. I need to stop freaking out when I see a word problem though maybe it's because of all the words... Anyway it was like (120 + 30 + 60) - (40 + 90 + 15) or something, idec tbh :oops: [/*]
+[*] 10. There were two ways to get trolled by this problem, I caught one while I was checking but not the other :( Basically, after you get 5 < x < 25 you must subtract the sticks already used [i]in that range[/i] but 3 is not in this range... Grr I put (A). Only problem I got wrong on the test... [/*]
+[*] 11. Nice but kind of generic... Sphere with radius 3 + Cylinder with radius8 3 and height $AB,$ and then just divide both sides by $3^2\pi.$ [/*]
+[*] 12. Whoops this took me two tries; first time I messed up the "greater than this common value" part but eventually got it right :) [/*]
+[*] 13. Lol the weird thing is that I see so much recursion in like AMC 10 and AIME that are easy solves by pattern finding that at this point I don't even see why they have these problems anymore :P [/*]
+[*] 14. This one was meh; (A - s)/5 = t, (A - t)/20 = s and then solve for t in terms of s and then plug in and cancellation yields 23/99 > 23/100 = 23% so the answer is just (D). [/*]
+[*] 15. Bruh the geometric probability you've seen 100 times... [/*]
+[*] 16. Just kind of flail around a bit and 12 works LOL! lol. this is funny. [/*]
+[*] 17. O yeah A1001 did this in his alg stream or something but I didn't remember the answer just like (3, 4) and (-4, -3) is the largest and (3, 4) and (4, 3) is the smallest to get (D). [/*]
+[*] 18. Whoops did the brainless infinite geometric series formula solution because I didn't care about finding the good solution :oops: Just probability of heads on first term = probability of heads on third term and then you get a very simple one variable linear equation :) [/*]
+[*] 19. Bruh... 4 * 2, 2 * 2, and 2 * 2 where A is in the first, second, and third slots, respectively, and then symmetry. [/*]
+[*] 20. Ok? S(n) = 5 mod 9 so S(n + 1) = 6 mod 9, and (D) is the only one that works? [/*]
+[*] 21. Probably my favorite problem on the test; I have solved both problems separately (Actually for the first part I wrote a problem that was virtually the same :oops:) but I haven't seen them together before :) [/*]
+[*] 22. I - circular segments and equilateral triangles AND NOTHING ELSE don't belong on AMC 10 #22s :( [/*]
+[*] 23. Nice; (25 choose 3) - (3 Collinear Points) should suffice. [/*]
+[*] 24. Just f(x) = g(x)(x - r); there's also a solution with Viete's Formulae but this is just as fast. [/*]
+[*] 25. Only one I didn't know how to solve during the test (Still don't know right now but that's because I haven't thought about it since the test) I was thinking something like repeated digits and a 0 is 2 possibilities so like 9 * 2 and then repeated digits without a 0 is like 6 * 3 and then no repeated digits with a 0 is like 8 * 4 and the rest is (81 - 9 - 6 - 8) * 6 which adds to 18 + 18 + 32 + 348 = 416 or something and it wasn't among the answer choices so I left it blank... LAWL. [/*]
+[/list]
+So all in all I got a 138.5 with 23 correct, which is (1) the best timed AMC 10 performance I've ever had, (2) better than the majority of my AMC 8 scores, and (3) better than the majority of my untimed AMC 10 scores. But to be honest, even though I wasn't expecting this at all and am quite satisfied with my score, I can sort of see why - yes, the 20 / 21 accuracy in 30 minutes (though with 10 minutes checking) was excellent but #1 - #15 I almost always know how to do, #16 - #20 were unusually trivial, #21 I've seen before, #22 and #24 are easy, and #23, though I am proud of solving, can be solved easily by pretty much anyone who's properly taken intro to c&p. Though as the title suggests, yes, this is more like it. I won't be expecting this score consistently in the near future but I know I should be able to consistently get 130s or so; I simply need to focus better and cut down sillies (simply, yes yes, of course. why didn't I think of that?)
+
+alright ummm be good boys and good girls (or good ladies and good gentlemen but imagine like high school or like old like teen you know) and ummm yeah peace out ig
+
+-p09
