@@ -47,9 +47,24 @@ background: url(https://mario.wiki.gallery/images/5/55/SMO_Snow_Brochure_Art.png
 opacity: 0.9;
 }
 #navigation_box{
-background: lightblue;
 border: none;
+background: lightblue;
 text-transform: lowercase;
+}
+#navigation_box *{
+color: transparent !important;
+}
+#navigation_box a{
+background: lightblue;
+color: white !important;
+transition: 0.3s;
+text-shadow: 1px 0.7px 0 #7a7a7a;
+}
+#navigation_box a:hover{
+background: white;
+color: black !important;
+text-shadow: none;
+box-shadow: 0px 0px 5px lightgray;
 }
 div#header h1{
 font-family: 'Work Sans', sans-serif;
@@ -78,4 +93,15 @@ opacity: 1;
 }
 #search-widget > div{ 
 background: transparent;
+}
+@keyframes loading{
+from{
+filter: blur(3px) grayscale(100%);
+}
+to{
+filter: blur(0px);
+}
+}
+body{
+animation: loading 2s;
 }
