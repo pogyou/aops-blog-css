@@ -504,4 +504,15 @@ transition: 0.5s;
 div#archive-widget strong:hover{
 color: black;
 }
-
+::selection{
+background-color: #b2dfed;
+}
+div.message a{
+font-weight: bold;
+}
+div.message img:not(.latex):not(.asy-image):not(.bbcode_smiley):not(.latexcenter){
+border: 2px solid #80a2ad;
+border-radius: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
