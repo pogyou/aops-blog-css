@@ -82,6 +82,11 @@ margin-top: 20px;
 overflow: hidden;
 }
 
+/* flyout */
+div#flyout, div.aops-modal-frame.aops-modal-standard{
+border-color: lightblue;
+}
+
 /* search widget bug fix */
 #search-widget > div{
 background: transparent;
