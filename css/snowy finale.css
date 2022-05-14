@@ -9,49 +9,6 @@ font-family: 'Roboto', sans-serif;
 div.entry h2 img, div.comment h2 img, .cfooter .author img, #post-new-entry-p img, .cmty-post-edited .cmty-post-edit-info, .archive-month-header img, div.entry h2 img, div.cmty-poll-display-top{
 display: none;
 }
-/* ALTERNATIVE NAVIGATION BOX (if you want to use this, you have to add 5px more padding on the header)
-#left_navigation_box, #right_navigation_box{ 
-float: none;
-text-align: center;
-}
-#navigation_box a{
-color: white;
-letter-spacing: 1px;
-text-transform: uppercase;
-transition: 0.75s;
-font-size: 14px;
-text-shadow: 0px 0px 1px black;
-text-transform: none;
-}
-#navigation_box a:hover{
-color: lightblue !important;
-background: white !important;
-box-shadow: 0px 0px 5px lightgray;
-font-size: 16px;
-text-shadow: none;
-}
-#left_navigation_box a:last-child, #right_navigation_box a:first-child{
-background: #c6e4ee;
-}
-#left_navigation_box a:last-child:hover, #right_navigation_box a:first-child:hover{
-color: #c6e4ee !important;
-background: white !important;
-box-shadow: 0px 0px 5px lightgray;
-}
-#navigation_box *{
-color: transparent;
-}
-#navigation_box{
-height: 40px;
-background: lightblue;
-position: fixed;
-border-bottom: solid 1px white;
-transition: 1s;
-}
-#navigation_box:hover{
-height: 60px;
-padding-top: 10px;
-} */
 /* NAVIGATION BOX */
 #navigation_box *{
 font-size: 0px !important;
