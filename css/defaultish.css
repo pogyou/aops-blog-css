@@ -32,7 +32,6 @@ border: none;
 background: #c6e4ee;
 }
 #left_navigation_box a:last-child:hover, #right_navigation_box a:first-child:hover{
-color: #c6e4ee !important;
 background: white !important;
 box-shadow: 0px 0px 5px lightgray;
 }
@@ -90,6 +89,16 @@ border-color: lightblue;
 /* search widget bug fix */
 #search-widget > div{
 background: transparent;
+}
+
+/* feed tab */
+.feed-tab{
+opacity: 0.8;
+transition: 0.5s;
+box-shadow: 0px 0px 10px lightblue;
+}
+.feed-tab:hover{
+opacity: 1;
 }
 
 /* mobile kids!! */
